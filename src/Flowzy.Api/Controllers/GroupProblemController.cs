@@ -1,0 +1,11 @@
+using Flowzy.Service.Contracts;using Flowzy.Service.Groups;using Microsoft.AspNetCore.Authorization;using Microsoft.AspNetCore.Mvc;
+namespace Flowzy.Api.Controllers;
+[ApiController,Authorize(Roles="STUDENT"),Route("api/groups/{groupId:long}/problems")]
+public sealed class GroupProblemController(IGroupProblemService service):ControllerBase
+{private string Email=>User.Identity!.Name!;
+ [HttpPost("select"),Authorize(Roles="STUDENT")]public async Task<ActionResult<ApiResponse<object>>> Select(long groupId,SelectProblemRequest r,CancellationToken ct)=>Ok(ApiResponse<object>.Success(await service.SelectProblemAsync(groupId,r.ProblemId!.Value,Email,ct),"Problem selected successfully"));
+ [HttpDelete("select"),Authorize(Roles="STUDENT")]public async Task<ActionResult<ApiResponse<object>>> Clear(long groupId,CancellationToken ct){await service.ClearProblemAsync(groupId,Email,ct);return Ok(ApiResponse<object>.Success(null,"Selected problem cleared successfully"));}
+ [HttpPost("propose"),Authorize(Roles="STUDENT")]public async Task<ActionResult<ApiResponse<ProblemDetailResponse>>> Propose(long groupId,ProposeGroupProblemRequest r,CancellationToken ct)=>Ok(ApiResponse<ProblemDetailResponse>.Success(await service.ProposeAsync(groupId,r,Email,ct),"Problem proposed successfully"));
+ [HttpPut("proposals/{problemId:long}"),Authorize(Roles="STUDENT")]public async Task<ActionResult<ApiResponse<ProblemDetailResponse>>> Update(long groupId,long problemId,ProposeGroupProblemRequest r,CancellationToken ct)=>Ok(ApiResponse<ProblemDetailResponse>.Success(await service.UpdateProposalAsync(groupId,problemId,r,Email,ct),"Problem proposal updated successfully"));
+ [HttpDelete("proposals/{problemId:long}"),Authorize(Roles="STUDENT")]public async Task<ActionResult<ApiResponse<object>>> Delete(long groupId,long problemId,CancellationToken ct){await service.DeleteProposalAsync(groupId,problemId,Email,ct);return Ok(ApiResponse<object>.Success(null,"Problem proposal deleted successfully"));}
+ [HttpGet("proposals")]public async Task<ActionResult<ApiResponse<IReadOnlyList<ProblemSummaryResponse>>>> List(long groupId,CancellationToken ct)=>Ok(ApiResponse<IReadOnlyList<ProblemSummaryResponse>>.Success(await service.ProposalsAsync(groupId,Email,ct),"Group proposals retrieved successfully"));}

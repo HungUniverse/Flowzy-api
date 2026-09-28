@@ -1,0 +1,2443 @@
+{
+  "date": "2026-09-25",
+  "scope": "37 Java controllers; 192 active HTTP operations. SHA-256 snapshot, not parity certification.",
+  "files": [
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Compatibility/LegacyContract.cs",
+      "sha256": "6a0ec530ac40f8c9b4685e6a73555af198c943d44e47b98094c71429ca228305"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/AdminFeedbackController.cs",
+      "sha256": "fbc3eb0230974d84992595c54747bf638e1bd4326ea98dae5462f8e3e40663a1"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/AdminGroupController.cs",
+      "sha256": "bfdf5c63193c90f30790a3b307c4da17818e71b3399d97ee58840d0719a3eb48"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/AdminProblemController.cs",
+      "sha256": "ff214066f441a13d5f8eb280512aa772ce9ba72d749e7bd13f680a376c4d7b30"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/AdminTermController.cs",
+      "sha256": "4026bb906f17b7fd3ef9ef6434c6a3b1d88944d356c0380cba4420559e978ef5"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/AdminUserController.cs",
+      "sha256": "2a98303859bb8d208c7e36a5d71c7eb4048f5b923c134c30e7143f38ae56f717"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/AuthController.cs",
+      "sha256": "efe38ec55726964999ea8c9e5c9e9383b32cfe01a8e7b5fe7c4d110bce5b3309"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/BackupController.cs",
+      "sha256": "a30a8ab171cde2657e710c606bbe9614df67bf6a99a7abf1179e12656268e59a"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/CatalogController.cs",
+      "sha256": "25d9cf208758b5e1b014baba6e5dafa5d30a315cb2916903f8b6a8e449ea5bdf"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/CourseMilestoneController.cs",
+      "sha256": "962e2c8ece5b8a4594425c3f6171094264a20203910c872cba0a9f26f1eb9a44"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/DashboardController.cs",
+      "sha256": "1a7440fed68f33d3c56641f5ee99a07e257ca91a4a30f6f57fe71999ea1afdad"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/FeedbackController.cs",
+      "sha256": "e3971ff53bab9e3d0741bb1bcdf950dbee3feda6e04a1f033f29c6c23e1c0461"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/GroupController.cs",
+      "sha256": "b4e9196c9fb38d614fd9eed26daaff1264bc4d7ef1f21e105937062e73072c35"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/GroupInvitationController.cs",
+      "sha256": "a6b4e4a30e4fde9bb964786a374c7eea25eff27f688a784e07d37765a9bda4e8"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/GroupJoinRequestController.cs",
+      "sha256": "946c4bddaf2630dac0f3cadd13e341f170bc1a0d7c9a0da7668de047f2ad141f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/GroupMeetingController.cs",
+      "sha256": "1b58acd22b92eaab07ccddc628be5adca174719f093620a582aa79db27f72183"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/GroupProblemController.cs",
+      "sha256": "e92890673d2a551dca99c911b16a4cf085859335692a6d06c6d6be187e491d0f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/GroupTaskController.cs",
+      "sha256": "ee9d74b1e83e790314d501e89329cfd5d84814b04caae7533445f22dd5422f89"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/ImportController.cs",
+      "sha256": "7f1da3bada3fe515cccbe52d4bf4945052ce13af46fa543f1d71948059cb38f1"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/InstructorGroupBoardController.cs",
+      "sha256": "89dabd9cc523f57bdc0e5d9b203ed6ece67873e40da13eac963615e811a37c98"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/InstructorProblemController.cs",
+      "sha256": "03d12315fba7623b4127cfc1000d08363ac7485f493d2c259fe85647e7642b5a"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/InstructorSubmissionController.cs",
+      "sha256": "431047be684d3fad84d13de5c323ff762f34a745be445d8fb8f4327510d4d4da"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/MentorAvailabilityController.cs",
+      "sha256": "8fa16c781e9e00cf09d27faf828d4e0d80b74340fee92691c3ef33175a8a9074"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/MentorMeetingReportController.cs",
+      "sha256": "40546f791e37b64ca69468233f9a16ec374a456f8a370f4ed72aae7c626d349f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/MilestoneGradeController.cs",
+      "sha256": "07d1cbedc0328f4aa905e26e84bc6d9aef63261bca37cc53973a028ca928e58c"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/MilestoneGradeMatrixController.cs",
+      "sha256": "a649a820a01df22cca61bc050d359159a9f42a0f9e2864e94e1ae39b9afd5f9b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/MilestoneSubmissionController.cs",
+      "sha256": "1dbacb08376176af28ac08f0d0e0b6783cbaee6201e17628a52dd2cfb44fc95e"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/NotificationController.cs",
+      "sha256": "37ee0352304b17cf011b1e477256a79d3900260fc703ebce6a96e4b0609450ca"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/ProblemImportController.cs",
+      "sha256": "377ba380da08e27076ea7a5adb782234ce3da0c08a763624f3c8e68e5eeae32f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/ProfileController.cs",
+      "sha256": "a2e627212a0d4389e2408412c402df923bbc9921f1526cc4284e4dd76047c41d"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/StudentAccountImportController.cs",
+      "sha256": "20830ce649bf217b1492292c265e3185a3cd88e31ab2cc5015c8bf4a3fb58b19"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/StudentController.cs",
+      "sha256": "0f2522e560b6c70546763306c056c27749990211cd113cc87b14c676ae8e2cdf"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/StudentGroupGradeController.cs",
+      "sha256": "ee216bfd5c28d068b12bf39fdd314e0c8a7d98bd98ccb6636611158956de058a"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Controllers/TaskBoardController.cs",
+      "sha256": "0b907e267c3759c9f5c20e4dffe405fd5538150340cfab3a03922d00ecc9d6a6"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Middleware/GlobalExceptionMiddleware.cs",
+      "sha256": "ef5a51c0cabf458528e937eeabe6cc3705746b6db425f81d68e6c2bad003aa98"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Middleware/PasswordChangeRequiredMiddleware.cs",
+      "sha256": "5d76c9ed4ea86c1362e17666a06f18852adb459b9c1fbf0b339b47dbad41d28b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Program.cs",
+      "sha256": "950bcfdf68ff07d1f9ca3b6fdca8f97298403c82b6979c68fe1086f892f373ba"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/WebSockets/StompWebSocketHandler.cs",
+      "sha256": "9bc302c5d0f8b58af7d2e10d2821829c1685f8c6665fb1d4560bd0ebd2645a5c"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Workers/BackupWorker.cs",
+      "sha256": "333c78efe46ed2701d9809df524ca9bd6fa436c3502879cd1961191c86f4ebc7"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Api/Workers/ImportWorker.cs",
+      "sha256": "93f4da5331fa1def5d5d454acf394a699eb210cff970b6af4ddb6776c89f32cb"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Data/FlowzyDbContext.cs",
+      "sha256": "1192783b5af136bbc6e7ff94e3001efe96889e3a23340b959e15357329172198"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/DependencyInjection.cs",
+      "sha256": "d7e69c29c9e5a94cf7bb5631226201d942139561510976f2da8c5a90478148c8"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/AcademicTerm.cs",
+      "sha256": "74b4007c69bb8eed36c8193d534f4b639ca726b8b1ba59cfee2b2a4592710597"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/Account.cs",
+      "sha256": "97e4adf1e87b5ca7b4583b1a324e8c6c8053aa3fb390bfc86f9cc974055b902f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/BackupJob.cs",
+      "sha256": "cf06e26a758a1ffb230112a4f6309eb51638f756ece061646cd989d0362a3e17"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/BackupScheduleSetting.cs",
+      "sha256": "fba7a43b4f67221c37502c0e20ce411798774eb4f8e0ef5515bc49e301ae1092"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/CourseMilestone.cs",
+      "sha256": "073c65c8819872ca43137743e649956bda1fea6e63a5ce5e879ee610b87217c0"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/GroupInvitation.cs",
+      "sha256": "a066ec25177b28f68614ecbda6ee42b29653d068ad386ecc49746722c401f05e"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/GroupJoinRequest.cs",
+      "sha256": "6d72a7941274eef74ad23e896cd224b0d0445e293cbb3613736edf424c989548"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/GroupRecruitmentNeed.cs",
+      "sha256": "77487ce838e774e0fff56398c12e75b98cbf22ae8f04cc3c5d1fd6420dd50f8e"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/GroupTask.cs",
+      "sha256": "ac4eb45f80c4b2ff874480b17b811aaea7d0f75006e1ce6115e7117b2637abcf"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/ImportBatch.cs",
+      "sha256": "47f4fa56acb243e8cfc2cd4b637b174ed44bbe0cd05ff5e13fadaea29228eb69"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/ImportRowError.cs",
+      "sha256": "208260625bcc2abd2717c4bfe17cae63c1a08e5aa09c128ddc81043d08f4c4fd"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/Instructor.cs",
+      "sha256": "3c09ea39c80ee789cf53cab411b9e1ac5207524097782f73dcce4447256db9fb"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/Mentor.cs",
+      "sha256": "f2e69650be11dd7a4717f2687c902c23bc48273c00314546f7ac0d14307a26de"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MentorAvailabilitySlot.cs",
+      "sha256": "aa966a33f682e39daa1789a8d59898d55bc6a45d6b0c0540039bfbe38823c2bd"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MentorMeeting.cs",
+      "sha256": "068791b8b47c8dce5c713d185bc01397bfc810c0f60f0edf90a2db65b78d6dff"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MilestoneContributionAgreement.cs",
+      "sha256": "25af78345572595d68837612534f1c7429a75ab9732348a15521bd6f232363c8"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MilestoneContributionRevision.cs",
+      "sha256": "dfdd8992cdab99dbc67a1801a13406fa334abad23ac6c035c8e5eef2be485b1f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MilestoneGrade.cs",
+      "sha256": "b3f76f866933cc63d08d006b5a796303aba0c3a60e0db0f98aa4765d2339dce1"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MilestoneGroupGrade.cs",
+      "sha256": "57ec4bea6ca8c98d932c117d69dcbdd68ddf1cfeeba925a258d84e4fefc682a6"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MilestoneMemberScore.cs",
+      "sha256": "6316191221a2a5ad55d7730e5a40058f8b47d2f94094cc3d4bc3b37db4907517"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MilestoneOutcome.cs",
+      "sha256": "0d78eb77b1433fff4209324711598c9d8dc426ed7254c119fd413c3a828286db"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/MilestoneSubmission.cs",
+      "sha256": "68ef265a005f86d6f85efc759c22f6949f37c0bb14605f347ab0a8e68342fb97"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/Notification.cs",
+      "sha256": "959fb7d5571570aa2b4e401426fb50ea98162da048ff5682a572ab1019f19e19"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/Problem.cs",
+      "sha256": "00c31e0278b4334f0eff5caafdea86491286fe014c86f635f3a8f927457298cb"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/ProblemDomain.cs",
+      "sha256": "ad28912db07b886260a5e99ba4742981361b7e27edcf6e4da8b4b86979f388ea"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/ProblemEvaluationCriterion.cs",
+      "sha256": "e6e57029122dd9344ee8ad667b935385b2af6e5ef7af2ff2390b78c8feed6ebc"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/RefreshToken.cs",
+      "sha256": "5b74944f8278c6caf215a3fd99c4218a2eadc4771f95a3e1da68e6b3d7ca3360"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/Student.cs",
+      "sha256": "be476e1011c85688a3eefb957d14a96a19a7f969ada784ec36ea3bd6c028872c"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/StudentGroup.cs",
+      "sha256": "2843ab4be613ab8b17e1b13e8fdd90c557c688257e56e53aed8c0f411117a74d"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/StudentGroupMember.cs",
+      "sha256": "749d23bd6165a07c9c353430f258ec74b92598d5dd605c10d0427cb46356289f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/TaskActivity.cs",
+      "sha256": "345c6f0c6e3c001d3611b168488c8a0fec21892597925d83bb4f008c243d5cbc"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/TaskAssignee.cs",
+      "sha256": "ed05185f7c8a60ed009f42d3cad89a53482b613ae111218f00071c20cbd663e0"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/TaskBoard.cs",
+      "sha256": "4d1c9455a64ac0bc15334e3fd67e437cdc61755eb3032b22e90cf36dd9083de4"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/TaskChecklistItem.cs",
+      "sha256": "d6cd36e48899310b50feffab07f65253cf15f81502b75e6049361edd4affd653"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/TaskComment.cs",
+      "sha256": "90079a7022abb0c1c2f4f9433235e7bea49fc27adb5c5ce0c6eb3a6542e2b5a0"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Entities/TermFeedback.cs",
+      "sha256": "9888d7ad9ebd399997783b694fd1b5b1933f70e2922c644a840df7a9996bb3bd"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Migrations/SchemaMigrationRunner.cs",
+      "sha256": "39981a386a356e122d96dc8f066d06823acfcd01785b09d275e108a0da2e534e"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/AccountRepository.cs",
+      "sha256": "85327fb68f0e74aa2430de4cd4161321ccb2ae775177f196ebd3630d2b59e628"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/AdminGroupRepository.cs",
+      "sha256": "2b8aec81f73beae129f31c7e0022ab83a056b220a189cb468f48371cebfaa6ca"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/AdminUserRepository.cs",
+      "sha256": "868f0ed30463b482dc74b6c7360566489c2d3ffcb1a11503d3eb492222c7e55f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/BackupRepository.cs",
+      "sha256": "387397e027881dae99f73e6dac8c6eb9032795a32b8ce913af610852de7fb40f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/FeedbackRepository.cs",
+      "sha256": "80eee1d5f6283e9d702fcd27313841711d3f5246fbef82bc8994934d5965a9a3"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IAccountRepository.cs",
+      "sha256": "7495c670fd3efb7fd8155940518358f05a49c7942d2701a1010a49a36882136d"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IAdminGroupRepository.cs",
+      "sha256": "65f8c4749beb7704ada9e1bc1a98a6af333ab982a20e85dccdd3bea44cd1eda2"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IAdminUserRepository.cs",
+      "sha256": "af3f5529a150ccf314a4ec03a0c82dfe9bd7bb0124883ea64a5b1bc2035b13cb"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IBackupRepository.cs",
+      "sha256": "ac29622e6fa3a76093f391fac19227d47fdd6ae1c3c774c2a7129083bb74da47"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IFeedbackRepository.cs",
+      "sha256": "c48d839d70ef35bf728f162eea1f19ed6cd1a8e624888ab268e75713c264db29"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IInstructorSubmissionRepository.cs",
+      "sha256": "e7452d2e5d272d6184d314959ea6fd6c7d0a421ff7d99cb7d9a8f8457d0dffbd"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IMentorAvailabilityRepository.cs",
+      "sha256": "1289b10b7fa60ff3efd0297d3bb03ac1da3182afdb1f1aeb81fdf574f8f51a34"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IMentorMeetingReportRepository.cs",
+      "sha256": "22ad418c799aa2e0d0f2ae4e387dd7c60948a0adb7d96ca313689a18f2f4b6a0"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IMilestoneGradeRepository.cs",
+      "sha256": "ffba02c2dfd352e9259f40803b6316ef97c159402403cb61e7985e4ac40f92d9"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IPlatformReadRepository.cs",
+      "sha256": "b248ae482536d85a2b6727a6a55daac16ab1a389900918bb6faefb4aa011b842"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IProblemReviewRepository.cs",
+      "sha256": "4573a2b74750c3e21b64b689247ce47477e5cfaea8c25bf705652402265492b8"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IRefreshTokenRepository.cs",
+      "sha256": "385c79acff21bd8a0f4224437325749fcee1e18221c4a3538f135839ec097c29"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/IStudentDiscoveryRepository.cs",
+      "sha256": "e0e5290a8984ce64d75507de72afe97269f0526a93763d9119ef32b32617cd32"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/ITaskBoardRepository.cs",
+      "sha256": "ee5c1607ebe71c6f67a5a639785a28d20b15717432b2a58c75260d94d23f5363"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/InstructorSubmissionRepository.cs",
+      "sha256": "62105d6c21b8826b09f62b688d3b8c7cdcb35d1ddf637b150441abe5dfd05d06"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/MentorAvailabilityRepository.cs",
+      "sha256": "b3830e72fa9244009db740b874e54466e01ba5c9fa392f433916a6390041d4be"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/MentorMeetingReportRepository.cs",
+      "sha256": "36ce36e6ddfdf4377db6ae97a745a38f3b27cccfd28de517ca86e8047c3c8960"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/MilestoneGradeRepository.cs",
+      "sha256": "01f04dcfff87dffdb73e7d411ff74912a1dbe894b67304d91bca90c17eb27ff4"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/PlatformReadRepository.cs",
+      "sha256": "98faa7c65a00ab3f1ac947f74f383dabecae0af8e04902626393e602b7824fd9"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/ProblemReviewRepository.cs",
+      "sha256": "0aebabe736c395d45b9fedddbf021c99ed0970651df15add8cbc4832adbe1a59"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/RefreshTokenRepository.cs",
+      "sha256": "4a866b892bf6ead4acf6c2e9226b03900345302127bab9bbd02f27cbde1a0a8b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/StudentDiscoveryRepository.cs",
+      "sha256": "62bc3edea7b1f170f845214391ce174330b97bf7141cc34f6e3c9144f8f9cc3b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Repository/Repositories/TaskBoardRepository.cs",
+      "sha256": "a59a6b3a5dc8d126dab2dd0f61a865d32e4a2f4bfa2db37fc44ebca6f9418a57"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Admin/AdminUserService.cs",
+      "sha256": "749779e841b11137f47ccaec80178165fc0e802a8a4a8740b66f62484aafeb71"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Admin/IAdminUserService.cs",
+      "sha256": "464e675ac8ff2860fa0a41cdfa06b229d36fb35c9c7f68af33a45bb62004e6bd"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/AuthService.cs",
+      "sha256": "4e11c21c88afb0d7dc3ad069fb20f0d899ded010a6e0f6a5ce90ab3e1891aca0"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/GoogleTokenVerifier.cs",
+      "sha256": "512899c5e8771f2296aa766c62d252abb1972c2af9b86494e336ebf5eaddf8ef"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/IAuthService.cs",
+      "sha256": "b7ecabbf7e1e9ed51711bf79084bb9dd93b1467896f66ab42ab06707dda20485"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/IGoogleTokenVerifier.cs",
+      "sha256": "dbbf97a73670d4f54d13d4bec9d29556726ab2eb84e4f89ea2e51865218da63b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/IJwtService.cs",
+      "sha256": "7919c03f8e85d0839f7e5e20d5eaeda2c7fbc7718f3054af05e8110aa8d15fc5"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/IRefreshTokenService.cs",
+      "sha256": "349f656494e7f205fc12b6f475e0acc2edf32359e49bb32f945cba979c15a565"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/ITokenBlacklistService.cs",
+      "sha256": "9054d79f31074c9d37ad2a7c8b678a8309f15dc4f948e8485aa57435c535488e"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/JwtService.cs",
+      "sha256": "cf61299cd01c0aa717b6836ca28d4b713c4392ad1f53b5e595923868f2f9b070"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/RefreshTokenService.cs",
+      "sha256": "700c3da4bf1c0c18c9e5349d92d744a5e9bfc12e638269596110002dc1e165b8"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Authentication/TokenBlacklistService.cs",
+      "sha256": "c6041e16be9e76ccfc4d4bb38109aa261641e415f2256b495014e1f46cdb2c9a"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Backup/BackupCron.cs",
+      "sha256": "ae88c7c6072b9340e562fca4665b539dfab94c5fbe55e15937ec3dde133f1b8b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Backup/BackupOperationGate.cs",
+      "sha256": "84d5422f2fe86f09ec235601370feb86ec5220e6c5de736cbbc5abf089974dd1"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Backup/BackupQueue.cs",
+      "sha256": "b4149e35150e18951f83d6ee16ff7ad1057fd8ec26af7c696664507b6d63a691"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Backup/BackupService.cs",
+      "sha256": "b032f008b49df8ea217576f0f6ca9894fc0acdefa0731ee552150e9da0ac18f8"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Backup/IBackupService.cs",
+      "sha256": "ce6b4d7fe3edfeedb598a497d5183ae929232017463015ff66f24232fc6f745b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Backup/IPostgresBackupProcess.cs",
+      "sha256": "046e22b0969385cbde77b983911cda22139791651905513e55953287ad933e1d"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Backup/PostgresBackupProcess.cs",
+      "sha256": "395e96313304df1674d9b9bb0ea7d5fb593776921e9789bc6bf30f02679ae46f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/AdminGroupContracts.cs",
+      "sha256": "3e68921d7043bceed6e77954ecbe73f3b798b1dd346a8f0419f2e3f716e67ad6"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/AdminUserContracts.cs",
+      "sha256": "61829ad7bfe26905b5344d3dc2323f506cfaaf62515655f4787889ba724c67a4"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/ApiResponse.cs",
+      "sha256": "24941dd56ad6fa451f4f4f2b1c7101fb4b43e28cfd097cbbc5416966884d71e1"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/AuthContracts.cs",
+      "sha256": "d502c9f1346d218fcdfaba6529fcce249d287b751b768e1124ba58fa53186f90"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/BackupContracts.cs",
+      "sha256": "f5c86841a2da78b8fc7e4019bbe36393601fcd60fa8ca747da6a6a50a28f8a62"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/FeedbackContracts.cs",
+      "sha256": "01529488b4ef30886520a183499904560c340ee134955be43e2a9af3cad0d604"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/Generated/FsparkContracts.g.cs",
+      "sha256": "7a9b54e38f4331babf9838959df9da0ca06ff8479882e763b761f195b7d719fe"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/GradeMatrixContracts.cs",
+      "sha256": "6b2d8ecf09807ecee2ec41491899e777ea77d5a2d5658b6a99b0d2c797189ac5"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/GroupOperationContracts.cs",
+      "sha256": "4fe88db29fb502c2602caf6d5cf093ee1ed391a081dc59a194cf44d9c561d323"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/GroupTaskContracts.cs",
+      "sha256": "a61d413db03e8a3ccd56e9cc2e09540c72f0d3441ea5f7b9a2cb1cf6f4971cf6"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/ImportContracts.cs",
+      "sha256": "eae9eb566b130747eaff449cb5d456a9a964158655ac8dd8ff8eadf0068f3849"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/InstructorBoardContracts.cs",
+      "sha256": "d5da27ffc43cb62594089d561dc7b8f9e648a63e3f3a6697061b619a7ea71da7"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/MeetingContracts.cs",
+      "sha256": "7c82f0dc4c323e2a1d34c1e3c32ddaa6ee8a3a61502fb371b19b450bf439d006"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/MentorAvailabilityContracts.cs",
+      "sha256": "3cb8faf4224d296fa7da92f292c7b926b9a4430eef7b0aee7a7122fbc85f4a49"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/MentorMeetingReportContracts.cs",
+      "sha256": "dcc0172e33909f21385a70a187435e9754eef3e9f1fad4a04e5e74b42721677d"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/MilestoneGradeContracts.cs",
+      "sha256": "4971bd9de832fb3fe0c6d60ccfd0c8db29d67ad55a9e1dad86337dbe08f78617"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/PlatformContracts.cs",
+      "sha256": "37586e14171ccbfccacdbfcbf4631451618794476e973146d1b0e9a0c0cea982"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/PortedDomainContracts.cs",
+      "sha256": "9098bf463c5653e084aabbe1d58a6b5e45093eb68f9af9b3181188da43c6df0f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/ProblemReviewContracts.cs",
+      "sha256": "47891a290c9de979282af7cc60d80ef15cb778f75197ebbb28935ea1ba719117"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Contracts/SubmissionContracts.cs",
+      "sha256": "9d678454e8d1dd0cf41b62c5129be3e6e7b1f94089f3b306d311d5e368f8bfd6"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Dashboard/DashboardService.cs",
+      "sha256": "1968f00ee625469c51c99c94b579e18adf4e60100edec6d364f6d5f8d754b7c3"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Dashboard/IDashboardService.cs",
+      "sha256": "c41bd97d2f3fb4a397c58d0b53a4d0a6cdda2af8b2da3fc75541b9263710f18d"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/DependencyInjection.cs",
+      "sha256": "b9fd73c88140ebdf1b08209721fd03a8d056e314e1a8e4dc8fb5b0295b6dc62c"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Exceptions/ApiException.cs",
+      "sha256": "4f4a1ae9dcae5dcbaaeab6acc5fdccbb47a092225587ec62538260fdde31c01c"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Feedback/AdminFeedbackService.cs",
+      "sha256": "3bae8cdabeb4363eba2bab1ebab7bf57dfb1dcc1570b9a59f2021dc86d2b3d08"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Feedback/FeedbackService.cs",
+      "sha256": "b64897f7187501fef269347870aa48d49071276bc4aa0d58d2b59b2d765e7c4c"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Feedback/IAdminFeedbackService.cs",
+      "sha256": "5b1fa4dee088a75d1ea55f3d5061ac610a65ac85d93b0ad3f2c8187e1484d052"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Feedback/IFeedbackService.cs",
+      "sha256": "103333cf1d5b49eea54a482dcb7356ed0817b86facef948edd010fcf91007cb0"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Grades/GradeMatrixService.cs",
+      "sha256": "29149a70eb783acf56be520a9946189bc7314e9e1b94e092b6f09fe7fa480721"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Grades/IGradeMatrixService.cs",
+      "sha256": "a404c97c13cf01a447b15384061b82eb7b4623d51a5111a72914abced1d052e5"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Grades/IMilestoneGradeService.cs",
+      "sha256": "22749166f17e89d9d5b8cb6996f869cb109f24bf4cc8c2497b099652cf2272c5"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Grades/MilestoneGradeService.cs",
+      "sha256": "fa738433cb36b36bc177a14e4e95fd810a3035bc73aa3e2354af8dfdfbb59608"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Groups/AdminGroupService.cs",
+      "sha256": "c3b07789f36bf5cbddecd4c64a1bf5c1436bfed86499485943d132708d27e670"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Groups/GroupOperationsService.cs",
+      "sha256": "118225f5202303e29aa40c48483e3328b659b2ad030ca071405435a6ad2c7024"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Groups/IAdminGroupService.cs",
+      "sha256": "c1924b9b7b4a392d7c46daee59b8c85347cfcc3a526ad6ec1279742db40e6e2f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Groups/IGroupOperationsService.cs",
+      "sha256": "6bca15ca2fe574281cc53bd32fe8ee3fe516403d426a36bf0dbeca231035d7da"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Groups/IInstructorBoardService.cs",
+      "sha256": "3debb9b2977e6c35ea5fdb985356b7dbc4893945da54c0db3008835b41f40c3e"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Groups/InstructorBoardService.cs",
+      "sha256": "904cbe62f07919854418b9300e919eb79d26b8b2a5003561544665bf3b21b5dc"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Groups/StudentTermWriteGuard.cs",
+      "sha256": "cb9b37133236e03a2dca954a146a6027da3e91cf36d22650430d02a33e897969"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Imports/IImportService.cs",
+      "sha256": "4876a10dcc6862afcaa329e325c3c2f73d845f6877eab53ee8f218e1a8955c3b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Imports/ImportFileParser.cs",
+      "sha256": "78de4345feedf54d52c7b736d8190252ff916cc7cdfe9bc98afdbe05e0adb68a"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Imports/ImportService.Groups.cs",
+      "sha256": "7bf9119b6ffd3a031d4fcb4804fb67a1af6648681595ede3932b489854cfd0e9"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Imports/ImportService.Problems.cs",
+      "sha256": "5020c26e75c928fde3f3caa6ff08667c77a25456596a1c53021f12dd60f52de3"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Imports/ImportService.cs",
+      "sha256": "85c34b6067b877831e8154d0f4a0496430f6990d81d321bf77cffe06816c146c"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Imports/ImportTemplates.cs",
+      "sha256": "60a3e0e9a7b54a0fc331da22eeb1c17f9ba2dcf27b780e41f2047b9d0a741e24"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Imports/ImportValidation.cs",
+      "sha256": "1126ef1bc91960fd980a724802b06bf78dde604146bbdb4b2f323369a8aa8b86"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Imports/ImportWorkQueue.cs",
+      "sha256": "d6e3522c01185c08c417035e113571a115d67d60d2f9a4f04319b2abab99d781"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Mentors/GroupMeetingService.cs",
+      "sha256": "3dc7df8aad0608ab3ac1eaede741a72516cc70a5dbd26af428ad5dd245718570"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Mentors/IGroupMeetingService.cs",
+      "sha256": "20fe0f806b7544d196150ea6a7d6fa1b6f9fbdfc953ce7f362b0ec3b8ebaad44"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Mentors/IMentorAvailabilityService.cs",
+      "sha256": "6cae7748b27f54fb81d5f5b4bdd0b3b108961c2a15c196f09c6e40a6aa9d17cb"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Mentors/IMentorMeetingReportService.cs",
+      "sha256": "44c4e7de3df3e90a6dea313c96506c05cfb0c3e979d05f51897ff5d75fea3262"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Mentors/MentorAvailabilityService.cs",
+      "sha256": "d8d428750b2a9c200e9e462d409626d747c22aec06b8cd635ed1cb181fd6260a"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Mentors/MentorMeetingReportService.cs",
+      "sha256": "8fee817abc8c666e2dba60251a15ea5f3e7ef53a20b276bc44ccbc91c03ee2f6"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Options/AppOptions.cs",
+      "sha256": "7727705e31772672e64d12d6a1563aeb29cce55e14484cb43595a59f0ece2756"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Platform/IPlatformService.cs",
+      "sha256": "72befd87991ed0192c154ba3fca49d56edabd5bceabf79ef8cbd27ace6c3fcd7"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Platform/PlatformService.cs",
+      "sha256": "65b2d332e49d5822fb67ae3044ab4223d9bd1a5860d8c225ffff5cc43f0e02df"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/PortedDomains/IPortedDomainService.cs",
+      "sha256": "8c3ed1ad50aed28f80144fff6fc6e8306dd869d2d7a78aaffc795a3eb9c59f8f"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/PortedDomains/PortedDomainService.cs",
+      "sha256": "e9a927db7c7d0d6bdbce17ac03334607b0adf56585f33d4ac113ea4653d3d22b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Problems/IInstructorProblemService.cs",
+      "sha256": "5829c1d5917f953dc96b7843d4cf17fd056d8dceb74fd32ebc7896d250f1735d"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Problems/InstructorProblemService.cs",
+      "sha256": "4e31084929f5ce577d85ce5f1388b0373836dc88d212bbe23da100007a06c10b"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Properties/AssemblyInfo.cs",
+      "sha256": "693cc188714122ca41c9153e7bdeb8bf218e9e8d3bf31a968bbd018547bd2de5"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Startup/AdminSeedService.cs",
+      "sha256": "7a99780da20ea6da5bad2c21f374875ac66bc97f635c16ae1069ab2a8d366032"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Students/IStudentService.cs",
+      "sha256": "76ae22729ebbadab2dba0080fd1b40f4595981b6641f5f37ed12ed30fe34ff98"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Students/StudentService.cs",
+      "sha256": "b361ba8ffd904705d7d5fb64f6a2b750f9772fc3390a1cf68c17e970a4f0120d"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Submissions/IInstructorSubmissionService.cs",
+      "sha256": "38a3c0a6e66c206ce5576f433c5f26cf1c205e8b226870304eee2616f3297470"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Submissions/InstructorSubmissionService.cs",
+      "sha256": "fbbd08444585517b45bf389b514c0a1fc4b13229cad6a9cbf082489cc3a832e4"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Tasks/GroupTaskService.cs",
+      "sha256": "365aa0309b5b890b3c40ab5d958b15d0f0c0540d2cca76be2c06f5dd9ab2d5d3"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Tasks/IGroupTaskService.cs",
+      "sha256": "9a538e502b30721d8ded2de317ea4cc90557d0cb7db10b042b8350b86bc3d8e1"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Tasks/ITaskBoardService.cs",
+      "sha256": "763ba700f7732f8a0c2677a0dc60c7c972e4fd728f496ef3b62590fa837695e0"
+    },
+    {
+      "path": "D:/Flowzy-api/src/Flowzy.Service/Tasks/TaskBoardService.cs",
+      "sha256": "f92ca7807e2f6aac318bf054a4b7cdace30b6871edd6eda4ca26148b39f79732"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/FsparkApplication.java",
+      "sha256": "40edb47d5caf684974af812d5527100b6662859338ddb4585c8abbe304872ea0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/BackupExecutionConfig.java",
+      "sha256": "55f07687f45f14d8fb45c4ab483ed6143cf6ddb87ef8bae0f445e3f9dc20e2db"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/CustomAuthenticationEntryPoint.java",
+      "sha256": "20823a26344c29b2c2619f760b3d6bd53aed48763c1817a9f722f5e9efde4351"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/CustomUserDetails.java",
+      "sha256": "c13e353720b2cd82ca2a6365a97cc5a4b21d438ca8c4054b664463694a68ce78"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/JacksonConfig.java",
+      "sha256": "9bd9f887a7645bec4888ad18a0983753108c29299f50edd1da51574c8218a241"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/JwtAuthenticationFilter.java",
+      "sha256": "7290a386d508985f40417d3858ebb4b12779e3f31812c198ecfed946be72d910"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/OpenApiConfig.java",
+      "sha256": "ea98df1cf1b62eb98c8124db6b519a50c003362813dd0dab302bfb617ceb8ff0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/PasswordChangeRequiredFilter.java",
+      "sha256": "f35b49ea6c179f97bf15af0748ce64a27bb6b40a1e311e891a954f72a2af694b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/RestClientConfig.java",
+      "sha256": "d6ae8d772c8b4865f19903f8eee9571508c6c8c081f73e8e6fdf8582e63147da"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/SecurityConfig.java",
+      "sha256": "df0dd6b55f613824d76d061f864aac344b2a7305fb4c4f70416b26ae7ea76e2e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/configs/WebSocketConfig.java",
+      "sha256": "65e925eec505a770cb53d45ea787b9332045d86b716df9ddf0b3f990098d3948"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/AcademicTermController.java",
+      "sha256": "e4e6628c43ebfcd248038628a350b6ffca13b46a9cdfadca94e02b2ac0d5a204"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/AdminFeedbackController.java",
+      "sha256": "3310b492d8a6244d23f51afd3f2bce8516fa487579d41481ec111bb31b864e2e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/AdminGroupController.java",
+      "sha256": "f6468a4ce5350f42170547fbc51ace0fb234bcea82221e5f24a92972a628e759"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/AdminProblemController.java",
+      "sha256": "b3f71d3d2db31d95a274a11b114badae005705e1764858122def6015980ea4ea"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/AdminTermController.java",
+      "sha256": "302c73c8a24dd2b093d72ef7c19d98a3c8602677cb20a570b4cd1e9a6ae1ac76"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/AdminUserController.java",
+      "sha256": "ca8d37aab3e69d370c4332b835d4c4c9a5e51fbe193e263914a89af3c7f91f0c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/AuthController.java",
+      "sha256": "66e54f6fd05b57ae9775ded09d6fe414365c8391b31047e0e8a0dec064be641a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/BackupController.java",
+      "sha256": "cf488e44d6c4117e4f090c82167c37dd4ea5781e8cbda020ab0d3114e0255d43"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/CourseMilestoneController.java",
+      "sha256": "b153c7d0a60718231d4a0fd4faed24b09d6a4f26eb12f36b52cdbf17a528b204"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/DashboardController.java",
+      "sha256": "8c8adcd4c62a84b0a1022a563acd21ade2a287a494ab8c69aca323a6d13b0331"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/FeedbackController.java",
+      "sha256": "c56468e5ee755438184a573ba903ccefc471598c3f697c06f8d648f01538c019"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/GroupController.java",
+      "sha256": "33c33227e7c9bfba5d5e99a6099497618f318a2c166f62e4e5831b684f12493d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/GroupInvitationController.java",
+      "sha256": "293a9ae06a64582e019865cbe5ab3a3929414fbbba0cec534d017c0c4525e70b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/GroupJoinRequestController.java",
+      "sha256": "0015f7e2f4549de37fc5bf9350041cf7263d3f983ba8144f9b9aec13a0b69c05"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/GroupMeetingController.java",
+      "sha256": "1db631820698849c883162c20ea492d19be9413087b8d650851ba66f64b991eb"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/GroupProblemController.java",
+      "sha256": "860425be1ec84ab4cfb9e6384b60bb8fbac7c959af016d62cfd745185b2da464"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/GroupRecruitmentRoleController.java",
+      "sha256": "31555bf0607cc0f94acc9ba9e349efd3c9c6e4d0033413f6c23021e23f53aab1"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/GroupTaskController.java",
+      "sha256": "830bf75200026e351e004811c0268df58e4ce0600cb823227cae523f54684de4"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/ImportController.java",
+      "sha256": "c39ca52620bcbd026a3c566958aa3ffe96a691116febe75c9c27ded080ff953e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/InstructorGroupBoardController.java",
+      "sha256": "57f3a3409e7f2fab67ac7b902457d4297c56f31f105529b012ea28c86df12a0c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/InstructorProblemController.java",
+      "sha256": "d2acac70f73eb144ddd0b27cb09187e0ec4934079d55ec967857ccb9fc3074f6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/InstructorSubmissionController.java",
+      "sha256": "6eadcf7265b3b33f072247bec0cad261dba38a5068c7634ba8a8a7b7e9af5315"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/MentorAvailabilityController.java",
+      "sha256": "54bc275094281a80b21d73e460df9bea6ae1d172e5f4696cca5b568ef6894cef"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/MentorMeetingReportController.java",
+      "sha256": "064a2c65be18d4fac2792ef3697831a72550d4ed215a1c62ac159640ec9af101"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/MilestoneGradeController.java",
+      "sha256": "e52c96685e83e2b13d1b7549017c3043a1b3073e9a7272bc04277adc3130940d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/MilestoneGradeMatrixController.java",
+      "sha256": "bb8cac339b83a230aed0e8152c0faf227a5fadc8ce662bbe4ebaa46d0a1b776b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/MilestoneSubmissionController.java",
+      "sha256": "4f36e3553238fa9f136e421ad114594bd72a0a4f46ae47696e9ff159a6f12a2e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/NotificationController.java",
+      "sha256": "f49ed26696770aa52a38e96f446d46d0d546262fd886384694cbcd2a8c6351fd"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/ProblemController.java",
+      "sha256": "b97dc5a5464904662abcb730d6cdde32218a64e9c05dd8923c4e7f020ba6a26c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/ProblemCriteriaController.java",
+      "sha256": "d75dfeb9688fe53c4e5a91b606dd91782d724735a9c7c7717443d0ea6da418ab"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/ProblemDomainController.java",
+      "sha256": "ae3bafd39c4788f18a8042c72764345a7273740dfd20f849e5619705426c3d84"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/ProblemImportController.java",
+      "sha256": "bdf30ff4b80f20f5654950c240481ea9703d109d6c7637f842fabd5d9aa71d15"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/ProfileController.java",
+      "sha256": "a413d8791715b32bd28d9bd6ac3e269ecc2a48b4ed6578a5a9a9a5b099c84670"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/StudentAccountImportController.java",
+      "sha256": "c414325c248e4ef3c6fdb57abaecea104a6f6caff36575a52ce6fe66ed383dd5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/StudentController.java",
+      "sha256": "de5d6aa0b94155536f4427b30d321f7fc86041d93df88152eb2627f93eb7706e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/StudentGroupGradeController.java",
+      "sha256": "7bae1daa598b1638c1733bdfc2910b5055379afcd6f54bf37f6ea28ba2dc0a56"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/controllers/TaskBoardController.java",
+      "sha256": "e0d09923c542974df397e30c197d62baaae88d32d423e23ae2ba3c6e0c71f703"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/APIResponse.java",
+      "sha256": "699b615942d214d85e008ef20c6214e3448b6b315dba86d5ad6bbbe07a420a15"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AcademicTermResponseDto.java",
+      "sha256": "6f49e34f596cfcdf2744ffc79c3eab95d43cf8b849d725a8adc888396c2e84d2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ActivityActorDto.java",
+      "sha256": "8b837b0e77cf16a93bb96a01e6e911f02f318cdfb161dbcd6fd2a8f50f44c8e2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AdminChangePasswordRequest.java",
+      "sha256": "972df5cc2b96c55475b51d9189c48e665341a096321121026cd3e88da8922ed1"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AdminDashboardOverviewDto.java",
+      "sha256": "1d31ef3e47e4e82dfcd3142b7a907a6dfc9844d9d7fc0d58c112fe5dce1fee83"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AdminFeedbackResponseDto.java",
+      "sha256": "db7df167c9347da0db1d760b5ace3ea1930b5c978a08d829d25b8f818d1b2921"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AdminUserDetailDto.java",
+      "sha256": "8a89f2c25fd0b860a9a0358d087da16bb640c8bfdf4ac9321a8f8c9300d416b0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AdminUserSummaryDto.java",
+      "sha256": "4b2cc91bd9b36de851bbe21103b2339241ef366e0a52b636b9326713c9851943"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ArchiveTermStudentsResponseDto.java",
+      "sha256": "1bb6a0cd9e1711899a57a2d4abd636f3033c59d86b290be00a63106073db20b9"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AssignInstructorRequest.java",
+      "sha256": "878c9e6ae8de3b340bfc14f50159178a37954344a16355f541b4f1c8c963eaf7"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AssignMentorRequest.java",
+      "sha256": "2cc9b74ea0ebe1a71c1dca23b77ab656220059ea5248ec84b4579708cb65543f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/AverageGradeDto.java",
+      "sha256": "6c27e5d8c35a6c94dd465eaaa2b53fadcf6b7f9dcae20d7d3c8878a99c337b07"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/BackupJobDto.java",
+      "sha256": "ea3eeb94ddfea8680865aa07081c68b084e733f5b179ad75c0ca6498b763461c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/BackupScheduleSettingsDto.java",
+      "sha256": "7c8abf59b53752d64b55c5a5bebc838d040e9fa51e94c0e60e5a0401283473d2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/BoardColumnDto.java",
+      "sha256": "0305cc2c495f71c72564b9c98eb04a108b8be2c2dd48e2a2d291d5e16121ccb5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/BookMeetingRequest.java",
+      "sha256": "e3cf8cb72119e836cb030fd315b7f4950c7abb960b5030cf80b70d21fdd86809"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CancelMeetingRequest.java",
+      "sha256": "eaa934f7c5c61c465d84f3693cda44cace49f26950126b3e4de1cc48fb1c52bf"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ChangeOwnPasswordRequest.java",
+      "sha256": "b0dc53360f71117468f4b0330942e4a7a42207cdf874c48c3a27ea88eff77099"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ChecklistItemDto.java",
+      "sha256": "1217b3fc32fc3f62850b8108590b85c0b6adca1d6a2cce57386a41956784e6ce"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ContributionAgreementDto.java",
+      "sha256": "24ff3707e1590ae92b29cab0b13e59c8f86a1fb9525bcd656926a968bce4d57b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CourseMilestoneDto.java",
+      "sha256": "af01dd1cd080d369cf8d32507d163522b3fd6466759c97186b364273a72274fc"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateAcademicTermRequest.java",
+      "sha256": "2602a86ec729f2dddbda9d2b8414c2cb099e0c86d9ff5f6a087be877846ef492"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateAdminUserRequest.java",
+      "sha256": "8eaab596a38b6a17cebe6047617155fdf5b6a5e89517fb4c0edb7305545c0275"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateAvailabilitySlotRequest.java",
+      "sha256": "ce269d87613d29159166ec07a409b3dcf1e555b77684ec780a23f279c79feb5d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateChecklistItemRequest.java",
+      "sha256": "c770694227eddace6d930228f60c6040b487a3f06b29f4bded88523ec1772c64"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateCourseMilestoneRequest.java",
+      "sha256": "dc11bd044872e17f4696958c09130ccaf2cc7996dfb1eac214874d65aa5a9f07"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateGroupRequest.java",
+      "sha256": "3a8f7cd2147e082a42c64017f3dbd51f9ccacda878eb5f51c52a2500d56e2a52"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateInstructorProfileRequest.java",
+      "sha256": "a58d0cb8b526a57d839cff7664ebdd0d1597d698c286ad38e9d92be8daa3b361"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateInvitationRequest.java",
+      "sha256": "7f3c1614dbe75683ec09eabd93762d22fd236101f1e1f97040a919040c800630"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateJoinRequestDto.java",
+      "sha256": "c82fb9747c40ee242b4d70c9c83dcaf4fe20d34ae49a06acd7361b562c57f0cb"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateMentorMeetingRequest.java",
+      "sha256": "2072068d19cabb86d6643c3f22d3999ec151b09f334557a9e67ea0cb247ef3b3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateMentorProfileRequest.java",
+      "sha256": "9340e31c6a438ccd49d354207427e11581009a4a653746101356ab2c3b581f86"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateMilestoneGradeRequest.java",
+      "sha256": "1b5ca1f8bd938f74e75a8333aed1142566c58c394533a171788dbf7189576988"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateMilestoneOutcomeRequest.java",
+      "sha256": "d1a8d518ee1b51da480580ac82370c626f060b9b83b073dba189ec5b8882b278"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateMilestoneSubmissionRequest.java",
+      "sha256": "395f225d0b59c4aa3ec91167cfef7c00ed7a3d300b4c02fa7474b4bd874e76be"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateOrBookMentorMeetingRequest.java",
+      "sha256": "b09e8bd99766b30f6e39ddbad9074a80a29d33e369be4ca630636485c8a667b5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateProblemDomainRequest.java",
+      "sha256": "47febfc37d24c51789a37542ae0994c2ff3a4daa6a9a62c0d157554e5423082e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateProblemRequest.java",
+      "sha256": "24fae975961a25d875e277620a3c4b170efe43cf0f156183f57a4b37a0fe8d0e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateStudentProfileRequest.java",
+      "sha256": "4ec610d7118ff2025cad6a941fa91cba1aed746c30aafc4a14c91c5c67a82a89"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateTaskBoardRequest.java",
+      "sha256": "23847dc2cd92284f0c0637c89ccce77c59fd9c3b5881b47a50ca0acbb49d178d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateTaskCommentRequest.java",
+      "sha256": "28ee316618bda17b075344f5ce5817b1bae7055c96977f319fcac850122e244e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/CreateTaskRequest.java",
+      "sha256": "a13edf2b235917c917f1334124d59f05bd13a1fd34e8fd5e42b5d9029e6508d0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardCheckpointDto.java",
+      "sha256": "f14aa694c133e613a64fd3f4f74f6ba842f514f8d403ecf799d0af2fc7b4cee6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardExecutionStatusDto.java",
+      "sha256": "148904d4ebdcf1b9fb847b1999d4a2494360cce5d9c308029338ca10961de593"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardGroupProgressDto.java",
+      "sha256": "40746bf3eda032bd4d6539fbfb486c8a8f971206394b56828fe1e1ce8ce47843"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardMeetingDto.java",
+      "sha256": "2b89c282b837c34233ee2077643ac40abf6ddacb33f5bf7452907843926a60eb"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardMentorDto.java",
+      "sha256": "e629ebdfdb49a28cc4c59ac09fbbbb89960a5d5afe5ca3f254746b3e4fc6dae0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardMilestoneStatusDto.java",
+      "sha256": "3ce308973f22e5e87ac1db4b452c9adab62a632742066d9fb938e56c683654a2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardProjectDto.java",
+      "sha256": "d036ed39e08691f894bfabc26fef79a9ac37eef55bc6f0560ddd1100befcce23"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardStatsDto.java",
+      "sha256": "aeb64d0a0bf683fb175f735d6037a3dc371595e2569308248226d14cf8712cd4"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/DashboardStudentProgressDto.java",
+      "sha256": "58a6d7255e0ab8a8c0f9918f0ec396c8cdf71755755262c376a316b6c02c0e68"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/FeedbackGroupDto.java",
+      "sha256": "8ddc3119be9bf30957c66858c4321356fce5be7ecffb31e023810f16cc20ed56"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/FeedbackInstructorDto.java",
+      "sha256": "a1afb9dad7cf1e66ab88f6350ba5d5cb907a8bf187970eb7be55ad88372b07a4"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/FeedbackMentorDto.java",
+      "sha256": "8622b0f2f750d2f9764b3c12c7c34b5d0949d0efa1654e4e5360c06afc189f07"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/FeedbackReceivedSummaryDto.java",
+      "sha256": "46697cfb0f372a53fa625b9795b7458d1e27b57e5873f018a500019ff38e3889"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/FeedbackStudentDto.java",
+      "sha256": "6027a5744b68e2a342ea2dbd698a02d30425d4b2d3294a26e0f872001ea21d9d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/FeedbackTermDto.java",
+      "sha256": "ba248d6d71304ee8717a848caa2e41c4931e5a537102dd9042beb6dabff9dd66"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GoogleLoginRequest.java",
+      "sha256": "610a21caa3b0b1b1cc13b0ef2b3edca7e75e35a8d5ead60159a64fd95468a4f9"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GoogleTokenInfoResponse.java",
+      "sha256": "bef47ff76eb1990f9e9386b939f28f3a12822d1e74cb62c845e78aa965896a02"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GoogleUserInfo.java",
+      "sha256": "d390d4ea9a70d755fb7819e40f2ed6f91f0e92834ea2d02899ddd33426eafcac"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GroupDetailDto.java",
+      "sha256": "d2a0b2487e7eac8513873d6bcc5eaacd1ce97b0651c67b8329bef3337768acab"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GroupGradeMatrixDto.java",
+      "sha256": "859ad0001cd168733b12ba324ce3ee5a2431b5c285e0aa33fb7a714086179ec9"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GroupJoinRequestDto.java",
+      "sha256": "17809c2d1940a0ca7135ce85e3642e75c2d63e74741c98ffebbe079c23482b3d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GroupMemberDto.java",
+      "sha256": "fdb7dd81ab6f8fbc8ce90e603b0746bf4edc2fa6c6fd39c122ec432da028c183"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GroupRecruitmentNeedDto.java",
+      "sha256": "5286b5b1cf6484d42a700d988f4d3d7394482789029879d8eec29d19304767a7"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GroupRecruitmentNeedRequest.java",
+      "sha256": "ecaedce35d9fa2846b58c42a6efc15a36f74424fe5211d235323f6ce68c1ede4"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GroupSummaryDto.java",
+      "sha256": "45ee434157b65c461cf1131924b62f4794a50de305e88041a6ac1e926f3caa89"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/GroupTaskBoardDto.java",
+      "sha256": "36b1ce324cac04dca6b390158c9edb86b3391ddc0497cab9d0520037b0412371"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ImportResponse.java",
+      "sha256": "57a128b2c12ecfd9dd9d89b7dbf24e945e405e984bd074930db641d7366a052c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ImportResultResponse.java",
+      "sha256": "a0e12fdbc5f8c692ba01cdd36cf697b55e83148cc187221ac28c3df787172ac7"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ImportRowErrorDto.java",
+      "sha256": "39cb0adb1e3b5ed412afdfa0cc5eaa6b49c688a8b4c2def9e2d95079b399824a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ImportedAccountDto.java",
+      "sha256": "d0a77b3b4496b629b27be9c3b7af0c4d0bebf8848adf20568508dfad35ed64d8"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/InstructorCourseGroupCountDto.java",
+      "sha256": "ef0625b962aa93c0ffbe9ec9c5879d74a1a128430e5bf719718a47e29a35a44c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/InstructorGroupBoardItemDto.java",
+      "sha256": "3f4d7b615a22f70b5ad555c235f41cee2eb6a283bee82007f38357660a9c36c5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/InstructorGroupBoardMemberDto.java",
+      "sha256": "96fe9b914ed25de3dd6c4067300bfd99a4a90e3d0d68e282a3d0b03e0276bfc3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/InstructorGroupBoardResponseDto.java",
+      "sha256": "b56e78f87e8453ad1c15d301ecccd81f49c31b12619828a3cece6615f69eddf1"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/InstructorGroupBoardSummaryDto.java",
+      "sha256": "2a55d2d3ac3c2b2b82794e8600a5d5c0150b1d7c83d357fd1ab758efb1ca62ee"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/InstructorProfileDto.java",
+      "sha256": "4716140a3494d1863a99d85fd74553469fef53be3fb88f7107ab5c3cc1080de3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/InvitationDto.java",
+      "sha256": "549a6b6e1187759a3a3a458e4f0c1b7c1f76d851f6fda29d71f18e4c3d01cd2f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/LoginRequest.java",
+      "sha256": "778f406c2082b1072b7e1cfa7f1229a29dd3c82c294cb70bd19414364ee179c3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MentorAvailabilitySlotDto.java",
+      "sha256": "034600ee203f592e801935eea311dab0f8e586cc31ce7e6e4d482ab29e01c562"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MentorMeetingDto.java",
+      "sha256": "22335a5d2dbc7b504e5518aec62485049784ce483a1d8870ff760a1d7cc0c5ed"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MentorProfileDto.java",
+      "sha256": "7ec4ed97bf328ed72c3e733592621683699ee9f2e2738114de428cbfae4ac574"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MentorReportTermDto.java",
+      "sha256": "1d21f49b53c86d6cbf6e5623f8bfd4e935a16db0c297e4af93db5f933f894e8d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MilestoneGradeDto.java",
+      "sha256": "a8b89461f0680c9a45739bb0f3c6180434c7c1b2d212b5f50b4d7f9a29faae82"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MilestoneGroupGradeDto.java",
+      "sha256": "29e00ee3e44f4cdc0f6c472462185fd167f32fcb6b49a5cf8e288ea65183274f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MilestoneMemberScoreDto.java",
+      "sha256": "95d22a34b365e62de48f98a4e2459c84c8151ae56b7e5b33ae4c0aa847c92e74"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MilestoneOutcomeDto.java",
+      "sha256": "74a3e2cf458fd263abfbb52d033b6167c8a98b6aa3832b2aa64b93cb9ec7dba5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MilestoneSubmissionDto.java",
+      "sha256": "b57417e11ad96cb81e56aeee7c498c75a62c29eb1bae1f19918266cb3c9c5a82"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/MoveTaskRequest.java",
+      "sha256": "864d9096dc5d060dbeb58579481461a6fb0e9022bcd336b827d1090632ad5800"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/NotificationActionDto.java",
+      "sha256": "8d665519618cb1e9c2576ec397e085dacfe30fdd7658b374dcfe732663fe3a57"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/NotificationDto.java",
+      "sha256": "04f414294409fbd5c86a69d1762572263aee87088027226bf7a4cff8f9cc7f8c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/PageResponse.java",
+      "sha256": "1699e72ff256c7f6f71c4947a97d5e4f9f045ea0e0a84d66853f0fa76dc85380"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ParsedRow.java",
+      "sha256": "65fab56e1eb4e6c3c950477140602b117db4d966c4293f4748499a6ee509f7e2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ProblemDetailDto.java",
+      "sha256": "ac7fa95c693bf97822d7249610bb8819a093df91fa476bf797ea8e4ab9a8f88f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ProblemDomainDto.java",
+      "sha256": "15a3448c7a734e3d7d64559453faa90c21b16077e98e27d526f7051e94ada820"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ProblemEvaluationCriteriaDto.java",
+      "sha256": "04352e8b7c0e6fa29b68c51d27b3fafe49bc5ef24521907a2d58ccdc23dfb609"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ProblemSummaryDto.java",
+      "sha256": "11be107dcb5a964c95e8430d8da9da1a64756d20d40fe05ff5ca6fc741d908f3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ProposeGroupProblemRequest.java",
+      "sha256": "155470c476c20e27537fb17c2eda7f761582eeaa8e6e9d3ff9ffac3f6321508b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ReceivedFeedbackEntryDto.java",
+      "sha256": "7c968a6ecb0f79aedc6c4edb9b4144db0e749fe01ff1f5778512f8903ae0c381"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/RecruitmentRoleDto.java",
+      "sha256": "52f841070658c809ef1c9aab7880c2b1f69ca76bae02bd691b3f4f94adc205a2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/RefreshTokenRequest.java",
+      "sha256": "b58bcba530b329a3193d3db2592d18c6bfc6b1abbc4c839f4a66402f1e6df832"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ReorderTaskRequest.java",
+      "sha256": "41cb872f10219293da4fd55c63561446eada33ba4ce9eeb0abecb0e4e094c82a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ReplaceTaskAssigneesRequest.java",
+      "sha256": "d031c508bde2c8faabf9381e3691533aaf368f9b4e2ee14ae07f6862b36f75dc"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ResetUserPasswordRequest.java",
+      "sha256": "49c201d67678fca8ad566f28612e86a1ebae86c8d04449bfe5d4af1359787bbf"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/RestoreBackupResponseDto.java",
+      "sha256": "7973f49f41e6517ef67e8f647d3772afa0b603e29b1831f5abdcc27b2d788c1e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ReviewProblemRequest.java",
+      "sha256": "9f5f4d35e7d0da666c213f75a4e3f851eb873a0aa0d6bb2e564879102236bb80"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/RowValidationResult.java",
+      "sha256": "522505e18dd284b3e83bf0f7c29a7a6a546488d2197cfcc065d1f77577284eeb"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/SelectProblemRequest.java",
+      "sha256": "28bfd95b5e8e2f050222ff72d63b9122c2b24f4b8ace3a17c1dc63ba6e8b92fc"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/SelectedProblemSummaryDto.java",
+      "sha256": "605b232574c775b159b8ae222a1205080583311c7c3d58756d78f2c0c5247b78"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/SelfProfileResponse.java",
+      "sha256": "6db1ed2670ae5d93542631af534446745ea8ae9aff8eca94718bcbd1b4bdf950"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/StudentGroupMembershipDto.java",
+      "sha256": "1c078f198d314215f93b156b2cd8407ff7101b85b43b64796e5b5574bbf52f80"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/StudentProfileDto.java",
+      "sha256": "12766acfcad1d68dc53b5c2d32d4c89c543478a572656557a2eed9715b72ccbd"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/SubmitFeedbackRequest.java",
+      "sha256": "3f72348c1d2879052910ac35d2cf0b37f0fbcaab7995a19be8705933d8032788"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/SubmitMeetingEvidenceRequest.java",
+      "sha256": "29ef50d51925e6748f3c1ac843bf0e96c7ca0c4329c54b297ca48b8e0322bbeb"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TaskActivityDto.java",
+      "sha256": "b85f07998bb297a876e2359d9863846819f46c49187ced29db0dbf4923362617"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TaskAssigneeDto.java",
+      "sha256": "ebdbd1a8e75689505af3653c6037a449b19bc3e91c8ed9e65facdb57c22bf52f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TaskBoardDto.java",
+      "sha256": "d9ff20bea941bc6933845c384eb6171e18f4f9daefa35edee43a5b1f5e487db4"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TaskCommentDto.java",
+      "sha256": "3b613d25438a8521aaf5dbc779bbc78d905ecdc394600760623fc4bac1c5e23c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TaskDetailDto.java",
+      "sha256": "e93c9444f568551204ea93be904530f42e654118a5affbf147df2053494049af"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TaskSummaryDto.java",
+      "sha256": "1b3aa26d5d663b5a44369af18aa502a197aee863b6f1eaef8659b7d9154a8b22"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TermFeedbackResponseDto.java",
+      "sha256": "1b12d7735dc3083abea91ad8b8dec481dab9c936811596561f52ce1ad7650818"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TokenResponse.java",
+      "sha256": "095ca86ddc2fbd9dc6c08fe9322b64da8c6abd419621d2ebc9ad4ef307af988e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TopDomainDto.java",
+      "sha256": "60beea55d513eab9ec689877d44380a6f1fcdea45a0f873b915eb043cd8b0b87"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TopProblemDto.java",
+      "sha256": "1c1d346f63a075808a5c59ef295154249c38b05447d7ab19e792604fed8ced51"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TransferLeaderRequest.java",
+      "sha256": "816c874707a4be7fba92cbdfbbcce30a9cc2fdd83eb3b36c705c95c1df0dd59b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/TvShowcaseDataDto.java",
+      "sha256": "0944649d39500469e2e19a35add35090dc7366a9f337a9eb26e7129e75c98325"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateAdminUserRequest.java",
+      "sha256": "95db0a81309db75cf7afc812d1cc12d1f815bb93bf64490c924eadbf9a3672ce"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateAvailabilitySlotRequest.java",
+      "sha256": "1a74d33581595596cec6270c6d0489c37d7bc049fa93d83c8386152ef899996a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateBackupScheduleRequest.java",
+      "sha256": "d26d42d3155cd45d9c5baaa5d44e1b3d57787a22a62b0cb025c0c038a8b117a1"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateChecklistItemRequest.java",
+      "sha256": "15b8c85ffb8e8bafff1fb6b5c28590f368c3596eab720ae517218c1f50a12712"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateCourseMilestoneRequest.java",
+      "sha256": "3e0adb1ac1dc7b9df411fb48d6476ec2381637e218e3d992a82c908255c5a51d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateGroupCriteriaRequest.java",
+      "sha256": "1d29f83a1b21020c312c68a897d06cb5bdd22ebc3a99f28d23a74ba54261cdd7"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateGroupLockRequest.java",
+      "sha256": "c9748b1a82094ed2e1cfb85ba0234d1d3fe144e50a8459e56c25cb5d4f6b3052"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateGroupRequest.java",
+      "sha256": "955ec7ffb38f906bdc0d34314970fd591af08a96e8c28d80b427e01b59418072"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateInstructorProfileRequest.java",
+      "sha256": "7a993e72e663a7d3bec39c165a48d234df7bf3decabe51396106ad65b30485bc"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateMentorMeetingRequest.java",
+      "sha256": "66c054f08bd1234e57320d1a7b0e2a5586434a772916d106d55bf91c738a012a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateMentorProfileRequest.java",
+      "sha256": "e835b0e7ab5904eb965d0869d08af4a3ce04fb03d1ae92b13af48e7833127098"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateMilestoneGradeRequest.java",
+      "sha256": "86697eb5323c8a4b69456d354d6e29dfcd114cdbb4bf34f9cffe4a3d70b2f079"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateMilestoneOutcomeRequest.java",
+      "sha256": "ce032f17435388e97e3d90f0acd6c45c4114951180deb16e40749126bb71833a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateMilestoneSubmissionRequest.java",
+      "sha256": "76a42580ddd87c5a0a791b8305c7cb39c12feccf94f0d37cf5db889c4c736fb0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateProblemDomainRequest.java",
+      "sha256": "0cd302faec8c0fb0d9f24082f6234ddc2c83fa44b6802ef54e5fe57647c41a87"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateProblemRequest.java",
+      "sha256": "ab5ff3dfffafcb637e52ec3b96b74b4bd88e3599174c95db8f9ff7b756615565"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateProblemStatusRequest.java",
+      "sha256": "ceb62807ff5f9eb4b15c8f91215fd811f37bc3ff5ae5370048e6aaad40eb412e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateSelfProfileRequest.java",
+      "sha256": "56c65abb475e534d26576e4c2abc34e3621f38734f94b21add70e25ebd0995cc"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateStudentProfileRequest.java",
+      "sha256": "3729452945890ee6fe16b9089590804441a8f2bce0d5b4f9ea85fb342ee71c9d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateTaskBoardRequest.java",
+      "sha256": "22806b98063dd414b68fba6f93dcc694533178ff771c80c0fd740c98919105aa"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateTaskCommentRequest.java",
+      "sha256": "fb0ae22df29890ab91f061462e61d84916e4f1c2fca886406cd6faf6b0ebf2da"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpdateTaskRequest.java",
+      "sha256": "9b8848e29852b52cd7581efb1cb3efcce5bf258a23647b6191befbb05a113b5e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpsertContributionAgreementRequest.java",
+      "sha256": "c7b6739890a4c177af61141d6a808c80a574f9edfc328993504102ad3c087eff"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpsertMilestoneContributionsRequest.java",
+      "sha256": "febd4e7619857d4bb687ec36d394ae985550154a9d1702f7ff5e4ca0151e5b29"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UpsertMilestoneGroupGradeRequest.java",
+      "sha256": "86f149df8ffa676dd5bdd684d11d7c1c48d119306badcb303592a2ae109af248"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/UserInfoResponse.java",
+      "sha256": "ce1dde0442634c73e340c25cd7a60b8667b7ccd76186d59a4fb9a2085037908d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/dtos/ValidationError.java",
+      "sha256": "c0d35095f34e07e76f3f7cf3014b692972274d600808e5c4dd83ff70cdb18b9c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/AcademicTermStatus.java",
+      "sha256": "54261ae3dfcfc86bc53a48422428b48a7de4c13b3f4063c1f93e9e6ee04d4bd5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/AccountStatus.java",
+      "sha256": "f173e519b3ff0cb909bca07acf862b59b55ddce3ade5bc75d4cad160c4bb3d8a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/BackupJobStatus.java",
+      "sha256": "3458276ffcd62c238debfc0bcd3780c47a62b9e2b69bc666d20589aa92f4b9da"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/BackupTriggerType.java",
+      "sha256": "a34dca2795c1ddfda619d8c468367bf880efa825afd8840fec06a61133110597"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/ContributionAgreementStatus.java",
+      "sha256": "7e7e7efd2906d7dcddc130fd04964e4a8517de49420dc0f09ce6a97aba1c16ea"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/ContributionDecision.java",
+      "sha256": "e2b15c6116745f2a1e67b43a6ae1e1a7d5de3f9ecf4413b5cc8a1f6ffec62650"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/DashboardMeetingStatusFilter.java",
+      "sha256": "b07cbf5acc829a9a27914536f2bf7a11841d10abaae9f3e5721ce86ec657e79c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/DifficultyLevel.java",
+      "sha256": "2ac9a2c7aafbe303905f663fee6c4e8c3678bffaaabbf7a7daac22253c0c03b6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/FeedbackStatus.java",
+      "sha256": "792c370064101ff3f853071416c782f71e8449de91d1a29f59b03c74a06700cd"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/FeedbackTargetType.java",
+      "sha256": "254279ee05ae47e97cd80c4c3217545158b8be79f37b44a547fcd07caf2452de"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/FileType.java",
+      "sha256": "4c0b938db30fc43d0e651a003cfa2954f20a9185b08e35105e8b9dc8d131e63a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/Gender.java",
+      "sha256": "78690e3a311eadee2541d310026aa1a875d37a53da3b8441744348786243b797"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/GroupInvitationStatus.java",
+      "sha256": "1f9aaea88d54d1b2641b1f264a8c18a4fe720fbdf822cdb8d596604bd0fe06fd"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/GroupJoinRequestStatus.java",
+      "sha256": "ea7450461e779041671af63c42f923f763cb8fafd2fe88bf8cd2377b1bbfe08d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/GroupMemberRole.java",
+      "sha256": "c06a325bed713fd64ec4d32314c584cc215f95382929115fdc3bc89e559a3d07"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/GroupStatus.java",
+      "sha256": "5df5ee7b29eb0b1d26522b8d7f9ee5ee5b39efbdb49b05d3fc2db0b0e0f6ae9f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/ImportErrorCode.java",
+      "sha256": "a395605695e794a4d3d7b05312bc9694e648f8ebd1519a9e4278f82303b7c45a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/ImportStatus.java",
+      "sha256": "e2652b72d0ef2bf38fe6fb041a73d4f4107871bb618112edb666651a7ba95db7"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/ImportTargetType.java",
+      "sha256": "55703aaa3bd0987d945752ebef25b462a9b782be67f2b32e4cf9a087b932657d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/InstructorGroupAssignmentFilter.java",
+      "sha256": "78d7099e4c486fb756eb19be53857e67980d41b0ee3bdf1344eba7b9d155cf40"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/InstructorGroupAssignmentState.java",
+      "sha256": "bf1a73fad02ed223d1a75264c71736f062e2e8e64a73c7caa36e7a04723d5fcd"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/MentorAvailabilityStatus.java",
+      "sha256": "2d3cf11aefda90d0d3e53c9a7f6128fd514f09fe4f902991348a2413900df8b2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/MentorMeetingStatus.java",
+      "sha256": "62364d96bcb5bef4c53ad095eced21cd9fed4e8a9a534374be1d4e9e6464a2d2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/MilestoneStatus.java",
+      "sha256": "57b21b38b39131729062393bc9cf8025f2c572492549f4a258543e73617e386d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/MilestoneType.java",
+      "sha256": "cef527fc696e16d3632d75a0cb363690be1a3e5b2b6a7b49dc20a93e1318ec70"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/NotificationActionKey.java",
+      "sha256": "f88b1154fdbe8236907605581749dc93a0d12cb7b4615e9a6fea19df83288a4c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/NotificationType.java",
+      "sha256": "4c98f89f20a203903b1802521d54849043664dcb34d21222eabeb0432d136bcf"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/OutcomeType.java",
+      "sha256": "72980c423789c71139cd23cec3e548a434997cf34c16492ddb4d59cb31f2d48e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/ProblemSourceType.java",
+      "sha256": "b2855c42f02ed0b3073845141275e45061de499ad0ef5c4a18d6025ce241cadf"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/ProblemStatus.java",
+      "sha256": "415a0aa368729714f461ae8a9e75c145309f00b192bf2f90e905fe92ef15a492"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/RecruitmentRole.java",
+      "sha256": "85a73c983868c0f3c7020643b7a082c26042b8463ec6d1feaad44dd0c982cdc1"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/RecruitmentRoleCategory.java",
+      "sha256": "f06e42e4c6220aee2391709586bd9031b9917c98cce8ec387316fe8a43bc5063"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/Role.java",
+      "sha256": "4ab0db9e31a55ae31d36933f46190de1f7280b38a4a37fefd1942ff0bfe0a5aa"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/SubmissionStatus.java",
+      "sha256": "d961d022104ca0171fc544a3027d40712d6f879817ac17f78613b65793e5a10d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/TaskActivityType.java",
+      "sha256": "45d601e6e20639a978594f8f42231b6c8ae72ace25910965f32cbd2d6f842b8f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/TaskPriority.java",
+      "sha256": "5226c9da1020b2378ba3036a8dbe6191a87acf884933776210611385e0fb6c9f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/enums/TaskStatus.java",
+      "sha256": "6093df72f4ea2f25c7d29857a534fa75f069210e38ad6b7eacc4844e1d40ab89"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/exceptions/ApiException.java",
+      "sha256": "ddd1218da02ebca30decb9ca8ebd58f523e256474319120fde9486c3ba90c4e7"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/exceptions/BadRequestException.java",
+      "sha256": "f1bf05ae39b28518a95872debe6c385ad2054fb976335a516debddc1402af1bf"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/exceptions/ConflictException.java",
+      "sha256": "d92a575087177f5846500e168c51672fbd40c3f56019efc1c51d65afd28ce900"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/exceptions/ForbiddenException.java",
+      "sha256": "01b3dba9478363e72710d4295221cd97c3ed870fe0e6ff48df2bf1c82b6512e1"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/exceptions/GlobalExceptionHandler.java",
+      "sha256": "05669da96a65dbc6f1eb68b2420c37cf49dc879e4d61c757fc5b8fb18fff743b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/exceptions/NotFoundException.java",
+      "sha256": "8e79a5f03c488eaf5981420b9fc9760f718c9bb8842985088b01ffd8a2f2f527"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/exceptions/UnauthorizedException.java",
+      "sha256": "3561878f6ce14a2f2b97fb74216248358a167653cbf0ffdf31da1f6336a05195"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/AcademicTerm.java",
+      "sha256": "b2179f2667ae2149b170b18fab8a7ce81ffd66b2313e41e61ee29a88a1624894"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/Account.java",
+      "sha256": "cb3c82cfa6848798ab0f73221c863358364981c35df1de5160fcbc34b757a780"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/BackupJob.java",
+      "sha256": "23b9de5e4c63e25a91a20646e265dd34b8f1b2ffe7b8a49b26bc1a35e9958cda"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/BackupScheduleSettings.java",
+      "sha256": "57729d2ac61444ffe8f33bcded6faee1abb98142b6dea58a38dd0c94a5305051"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/CourseMilestone.java",
+      "sha256": "234c01883d6f8df0940fdf5b8ab49f654a6bbf972c3c2b0905e2ea8a6be93074"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/GroupInvitation.java",
+      "sha256": "786affa38ea5e797f339d39768664a206a8dec1bc075607f387c78a7bad9380f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/GroupJoinRequest.java",
+      "sha256": "2c5148438e50d886891e02208d1a7b6fb98f6d8d559e64594f5c5056923ef6ca"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/GroupRecruitmentNeed.java",
+      "sha256": "acd3e9434a3037bbab8495b0fba5ed83fff1bb64219ec2cdf9c931887009354b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/GroupTask.java",
+      "sha256": "348c57fdf25592958e81cfe013fe18973fce8e9460651014af702261ceff9454"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/ImportBatch.java",
+      "sha256": "70e5c319832d5fbb3660367aa3dd0481a23be5665b9c57f923756cda5607c7ed"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/ImportRowError.java",
+      "sha256": "a384320caecbc774a989dec4ea9a93d2720f9d89f8227df502eb78dd8958a2ea"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/Instructor.java",
+      "sha256": "7de6abe385c278a5d39ae91ea8ab475e2afcf16646edd3271955d5492f76f13e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/Mentor.java",
+      "sha256": "8d14d70a6a24d4a362da8ae53d0d835b1dbc2569c26a50dd05239b7499089ce5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MentorAvailabilitySlot.java",
+      "sha256": "c9a8335b2b2d6f15137e8e9abc2068af521cb4bcf27b1afec8acfc689ffe7ff2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MentorMeeting.java",
+      "sha256": "75a98b864f6faac098783b8f17eb045b6b85d133155221533950ed07449e3e3c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MilestoneContributionAgreement.java",
+      "sha256": "776e9f248499472ab19d9e6ce367f37caf7aacb5353a1a5a9a573eb40042c1a3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MilestoneContributionRevision.java",
+      "sha256": "03f003b409feb91aa8f999ede6720ff8fe467b343eda9deb568b39a83df338a3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MilestoneGrade.java",
+      "sha256": "5af2c179c709f0e0de6195840dc43871ef2a0ec4826686dc8d5759a1a81a8d5a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MilestoneGroupGrade.java",
+      "sha256": "892bd6476a3a584f07591ffd5410ec1ca2fe2e0ff01806b470c34bd8c4fe2359"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MilestoneMemberScore.java",
+      "sha256": "78e15d9dfe1ecb01edd09a25134e0a5a664c087804228458696662e434fd69ba"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MilestoneOutcome.java",
+      "sha256": "a7fdc8bd00f01b594884204e02c56cb77ef3a73061fdf3a529740b1b8b66e32e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/MilestoneSubmission.java",
+      "sha256": "34fa7dd8590914cc9f7a80704b487e16396a00a20213d679606b71720531092a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/Notification.java",
+      "sha256": "a00536d1dd300d61ac9d2b0206018f44a96fe944b34bab65f98f58a31ceb6520"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/Problem.java",
+      "sha256": "866fedae998621c3a8b3c08f0d9a90c0e10db0f461d394fccc1071993915606b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/ProblemDomain.java",
+      "sha256": "d34fc63b06a297f05e2eec2ffd4a1791b53b586200cc6c2509d53648147949f6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/ProblemEvaluationCriteria.java",
+      "sha256": "2a3594f13b745a0f9d617a79140a7d67f391efd82a330fb98082dba63676f56e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/RefreshToken.java",
+      "sha256": "6207af57701b820c4892d57f76781f62e0aca51d5bd7d19715462ddcb1facc8e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/Student.java",
+      "sha256": "ddeb757363e04b9a6372c659aa0a1a6ed5dd17119e5bbb83bf44f3238f109fe6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/StudentGroup.java",
+      "sha256": "34c9404260ae8334d9e6e0359416e229b9d210d76badf15caa9852a9ba51a14f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/StudentGroupMember.java",
+      "sha256": "74c2c130048cf18603b992a661d9e83c48b47e3ee7dc44d05ce760d199f52051"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/TaskActivity.java",
+      "sha256": "27373cebc33039739ebc191739f06a2930a1b0fb935d65171db759f6566e2821"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/TaskAssignee.java",
+      "sha256": "a6297907fded522059af40adb54526eb8603770efccb2b186e182786d8b76e2e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/TaskBoard.java",
+      "sha256": "83e136de6759d85f33985cf772964b8801b4005d591763ab95c3f2a0e8685b96"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/TaskChecklistItem.java",
+      "sha256": "ee6fc8c892abb2a33feae72f1193149014fbba6f3ba7e9815324757e3b61b257"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/TaskComment.java",
+      "sha256": "b7f1f4e01efec1638a169f53df8efe963d1058144cee40eaa3a195c19375c02e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/models/TermFeedback.java",
+      "sha256": "d4fcf73290550fc821c803aae871afe03dafac5a387b72962df8a77ecee91391"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/AcademicTermRepository.java",
+      "sha256": "cc3241b8a0462c24629c2552696638c36990fae9d12a6c572db69e7ac89ff572"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/AccountRepository.java",
+      "sha256": "7384bbc2040c6c2195c32ab95ccc6d87317aea65f16b079206af4463ee31e9bc"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/BackupJobRepository.java",
+      "sha256": "4c6efd20715026fa6bf7837fc7a6609249905f68c639cae3d9fab7f72d870039"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/BackupScheduleSettingsRepository.java",
+      "sha256": "e661de10ba5927d583467b297f4e10856a2392e19d18ccdf50f182972a26fdc5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/CourseMilestoneRepository.java",
+      "sha256": "952195d4a2e8501c964afa790724dcb60c0f2a0f85b4e4897c7b413e35fe501a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/GroupInvitationRepository.java",
+      "sha256": "42742dc063ce75cd3ce7d7ef4b259c8e113dc6c6ae30e89556d260a10f94f161"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/GroupJoinRequestRepository.java",
+      "sha256": "07ad532bac3777bec21a9294c5ed652cc97f418075062a322fc26a5c51608c65"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/GroupRecruitmentNeedRepository.java",
+      "sha256": "4dec45672b0b66682bca8dabd78adf11553fd627df590d440504a8af3f3ceffd"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/GroupTaskRepository.java",
+      "sha256": "5e364f25ac327eb06fbae43b32be61d9cc010b642da06c776dcc06ff5adc2517"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/ImportBatchRepository.java",
+      "sha256": "e10a0e7101584fcf604534ba49bf09c2712a0bbd31b22989960fd92b4cc93eea"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/ImportRowErrorRepository.java",
+      "sha256": "1b39b6e5efade2990588ff0c59f5becd5861e8a6d38598b7a8206aa0726c2147"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/InstructorRepository.java",
+      "sha256": "7677134bf430f3740c342cb854a3d5966dd3564b89e9180499e9c9dadac8e0e8"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MentorAvailabilitySlotRepository.java",
+      "sha256": "5b9630d2701df280044ea1d3bab7ee8179101f3efff004b91c21ccb7506bcb89"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MentorMeetingRepository.java",
+      "sha256": "a8413074ad2e920edf8076fbee2935b870c97d9473d3f4c0a7c7977ec3ff3373"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MentorRepository.java",
+      "sha256": "c3ec52f1bd2aa9b9b2c408f38d63850e72a7e2844b5d9e640fd0f09061cebbd2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MilestoneContributionAgreementRepository.java",
+      "sha256": "5e4bf131ecc47ba7394e284ba236f98e01820c31d5289929e58b802b3a05e84c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MilestoneContributionRevisionRepository.java",
+      "sha256": "2b1181843f1bf4fe606749fb88a039136f0bfec8da11878bed98c823e710bebe"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MilestoneGradeRepository.java",
+      "sha256": "892dfba8648ad1d4a891adef520e20670ccf0d79478b9b9767f0175864331252"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MilestoneGroupGradeRepository.java",
+      "sha256": "ba30cf21c2c186fb27abe941abdddfaf831f5887298f191c7f0001865a7c6acd"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MilestoneMemberScoreRepository.java",
+      "sha256": "3df45e5b0cf1413f9ccb62d09567afb430c49acfd672d2d31394cf2ae02ee695"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MilestoneOutcomeRepository.java",
+      "sha256": "963e6e8e7d648a35b8ebe2f7365f93c9ca1c1206429ba455829a5e0cb8dc1266"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/MilestoneSubmissionRepository.java",
+      "sha256": "e89bec14c64c076a65a5bef3ec213e851ec84359f59f167dadfe038da0105d0c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/NotificationRepository.java",
+      "sha256": "bca1e9560806730cdcff46f3facbf7ec62eedd11d83085c3d0d731032bc71d21"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/ProblemDomainRepository.java",
+      "sha256": "d85c2f8d5d15a2a3392d476e8b88be1d96e0c8dd01b2aa3763ca730fceb75a35"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/ProblemEvaluationCriteriaRepository.java",
+      "sha256": "9893e3190990486f59a072ac8c6413026b42c15bf52168fd2e0b6fd138eb60f8"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/ProblemRepository.java",
+      "sha256": "f9a1e1f1c8e6f91d828d451898e2cd82bc2f5d4c2d768286ab8e8ab019c2b03d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/RefreshTokenRepository.java",
+      "sha256": "38a65fdb118304f68ee7546544a0e8e21955166cf7cd944310c5b5bc040b71ea"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/StudentGroupMemberRepository.java",
+      "sha256": "e0dbfa0f3a2b9252c56b86dc8338e141efdcb30b45db89e3b91682e8a48d5165"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/StudentGroupRepository.java",
+      "sha256": "a0aa5bbb96cff05bcfcb357e2de82688c8053bd7c2a36db2d567b8e1ced8d0a1"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/StudentRepository.java",
+      "sha256": "55e2d9c0f0adb8478d2346fe7859902f26565c177d622b1e8dad02477862eed2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/TaskActivityRepository.java",
+      "sha256": "870ff34bf67a5ab2841cfcd950d07757b361056264f6cdcfd0ec8f0f14c17ec5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/TaskAssigneeRepository.java",
+      "sha256": "a7431a4dfc88a49d2691d83fa0c64410ba970a835229506ab7a2f874f18b9dd9"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/TaskBoardRepository.java",
+      "sha256": "d52c33f2b2ff5aa0e250b98089abfe31181d7e1960b79344f68880eaf9801be6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/TaskChecklistItemRepository.java",
+      "sha256": "1d2ad5a3af9101628c8b7d4af77a18221a37d70cee304a6f9411bcff8e8d77d5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/TaskCommentRepository.java",
+      "sha256": "e36d32cfdbf8d6cc273872dc33e89430a3487809aa0449982eaaecf27823bb46"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/TermFeedbackRepository.java",
+      "sha256": "34a49ae603b5542659d8d4f8d17177f05a59d8f97bf568cf9d6e01424e6ba71d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/specifications/ProblemSpecification.java",
+      "sha256": "c4cf6730efd02321d4f4e50cccd90b9ca94b95220a72a32ac4a7d40676cdbe9b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/specifications/TaskSpecification.java",
+      "sha256": "5686220645266e8b9939d480d6ebff34e089dd93f4d1c785e9f5d86f6790cf34"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/repositories/specifications/TermFeedbackSpecification.java",
+      "sha256": "596e999dec291f2b9d2a1551c2c8cbb1a8d029f495b73c71b7becca77a958f72"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/AcademicTermService.java",
+      "sha256": "3944a08f3d7a314d8b98044d4e1436ea558ac26be74afc304326b3cc10ce615d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/AcademicTermServiceImpl.java",
+      "sha256": "bdd954ae5da530897a3a51ef925e5ae0342da7b742dd921c85896f4322cf0b40"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/AdminSeedService.java",
+      "sha256": "a7c5f0c0c6acabb6a59917fa0b80fdc2b635639739cca18e079017b934e172f2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/AdminSeedServiceImpl.java",
+      "sha256": "4715d53e1a9fbb7cadf54d7196bcb37f5b8a5299793a513fb417c7880b906fde"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/AdminUserService.java",
+      "sha256": "a5a001bb2dbaeaaf6e9d0713fc018804b62d556b6034aa9923bb7039036ff615"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/AdminUserServiceImpl.java",
+      "sha256": "48178893c5ca28058984a36be46260e47e66c8e10aeaf5eb65d1ed1ed228013f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/BackupService.java",
+      "sha256": "3d69786e39f126cd6924028beacc86fae1e20231d065776ffb67eb13805948f8"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/BackupServiceImpl.java",
+      "sha256": "9e9a1744112a762cad0febc1dc0f3e20b552269488b15035223ed4370189c39e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/CourseMilestoneService.java",
+      "sha256": "f64207fb9af462bcee74e72c6e1fa3c7dd874674ea564e2ccfeeffa566b7d2cc"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/CourseMilestoneServiceImpl.java",
+      "sha256": "f548274ce84eefa727238fd70e6f2b147938a25f4bf678c304eed8edbb17c36a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/CustomUserDetailsService.java",
+      "sha256": "2d54ba4e19331dbab1cea83f1278febc15bea32e274df035906c7b979e43e756"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/DashboardService.java",
+      "sha256": "f73d1489776c49199ad08c3fba0fe71da36b6088bfe27277df75ff3ebcc9ed89"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/DashboardServiceImpl.java",
+      "sha256": "b41c56b83aaa46f862019ee6a010ede203a17261ab099c13b3ab60b481cb21b0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/FeedbackService.java",
+      "sha256": "c12a03872cdff778f89f74c6a9c8eb5970c07038e4067ffeeba369545cf2cf9f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/FeedbackServiceImpl.java",
+      "sha256": "c50680466b230168d8a2652431bc03cea70940703dd34ea67d77d6bfd1b0822d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GoogleAuthService.java",
+      "sha256": "34fd5b151c06df982fbed9661391af04fe2ce5d650290e7cdc6b8bdc426154b8"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GoogleAuthServiceImpl.java",
+      "sha256": "92f6a203083f3f015a5c371422db220b456f8de21ff9ab7fff362bad895a1de6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GoogleTokenVerifier.java",
+      "sha256": "493b82ea0316650845a9c3a7935caef197323be98ad0dc4889d6bd6283c79a81"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GoogleTokenVerifierImpl.java",
+      "sha256": "e4f4acbf2d0d50c44dba8bde9091446bd3eb13ae5854591b41b1097c350ba427"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupInvitationService.java",
+      "sha256": "7a5d7817433d0479d18cfd3e034f3131ee2b9b447df3e0dbcc6f141037bfe205"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupInvitationServiceImpl.java",
+      "sha256": "a2327fc41becbe18d61d3c6ac86a166907dde72be0e0a7c9cbb7216c5f0f9371"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupJoinRequestService.java",
+      "sha256": "f26f214b5db3b958313724a7732e7efccf731d26aba17d9bbfb39c45a1683b09"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupJoinRequestServiceImpl.java",
+      "sha256": "1b88bcd203c06940d0787a76238e1db275ae21831759d0d4948112a977a4e255"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupMembershipLockGuard.java",
+      "sha256": "fa186b37daa8f31c8239e9b62103362007e40262e14a264340eca34a2f17af05"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupProblemService.java",
+      "sha256": "ea5dc74b9fe2d84ab264db9dc4058944a749e7f790459e4bbaddd9e0fa23d38f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupProblemServiceImpl.java",
+      "sha256": "e74d17414339450acd822c2c78e1dde1109597a133d6c9e20308291e0242ef5c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupService.java",
+      "sha256": "8abbb4fd2551a065f2af0a94559543f563e2ed9cbdd5b81311ea07ab2b00c7b9"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupServiceImpl.java",
+      "sha256": "a568c11d21fced489864393f9b815f0ab8df45196921e97489304ea8cb490719"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupTaskService.java",
+      "sha256": "85dd48b602c526fc4209bbeb7b1160175b3dcff284ab4d991c8dc1cac85389c5"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/GroupTaskServiceImpl.java",
+      "sha256": "957666dc6e0307dde2c4838052e4b563ad1219a3cc0ba5f7ce3f793f052df620"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ImportJobSupport.java",
+      "sha256": "80d513045a69b54d11685968151ac034600cf29503a057a36e44930ce8de4ee6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ImportRowExecutor.java",
+      "sha256": "310e986df1c9f44adc66b0e3baf12346314e1288f4d0ed86667a685450057165"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ImportRowExecutorImpl.java",
+      "sha256": "ce363f788559797966036913f2e31fd55ef1784fda96d8b07fe3fd5d6d97f0e2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ImportService.java",
+      "sha256": "9c9cb49946beb46fb209a87fd1c086659dad1a356acf62f6aecda432972ac240"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ImportServiceImpl.java",
+      "sha256": "f23788f8adf516e5483af7637611047ffc29eec7a67938e41ed119e50fc70bdb"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ImportTemplateWorkbookFactory.java",
+      "sha256": "e47182bcc9f57eb2017b17c34739fcf44b592bb5d107b7d1ebae988e1130a1a6"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ImportValidationService.java",
+      "sha256": "2c2fd5236e9025be111491d5187b37b709ee95501f11aae999cab11188f3a53c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ImportValidationServiceImpl.java",
+      "sha256": "73a6ed2e30d609cfbd6a0579192ac544f4ca848a8d4a1eaf07b88f5b1f89be2f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/InstructorGroupBoardService.java",
+      "sha256": "341d72a1a187c28679a4abfb270bcf642b34fdc58377a9384f997eb5a9ec1796"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/InstructorGroupBoardServiceImpl.java",
+      "sha256": "02b91010991b6d7cdee006bc7c48a6789ea9d2fde18c8963bd45b043ce1e5e6b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/JwtService.java",
+      "sha256": "a629c1edb68c1c28cce10215c8d50477ee4a5d5b614fdf752d4a1e23652991ae"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/JwtServiceImpl.java",
+      "sha256": "a2c37c2177582fc8a6553fc9eb2a15c85cfbb8c882d4a81e617a6dae283acc3a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MeetingService.java",
+      "sha256": "c659032af8aa3a658359b9a55ca791e6e916a9f939de6ca43a39bfa9bfc9a0da"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MeetingServiceImpl.java",
+      "sha256": "8c141e592a56537d332e4b09881d59ff5a793742c07c4398ce751d26df036a95"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MentorAvailabilityService.java",
+      "sha256": "459d59ae28a601dfa0bbc816b0b6094ab685f68ee0aa82f6c165600a1b63bd70"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MentorAvailabilityServiceImpl.java",
+      "sha256": "649d2029c0fe9b51b80c08197efda3ba98593032a1ffdf066077e6ec46686f2b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MentorMeetingReportService.java",
+      "sha256": "691ac602fa51c2e8af6a24b9872a660e62337e7cd48eae6163fe7e8f8448fff2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MentorMeetingReportServiceImpl.java",
+      "sha256": "a7dabaf17ee8092661989a2cd4ad5a9c7e514dfe71b4c107db87f5e245857d3d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MentorScheduleTimePolicy.java",
+      "sha256": "57e06dd6c3b5ee599d363813f2de662321470989a83fdaf275cc853c2e94be95"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MilestoneGradeMatrixService.java",
+      "sha256": "1c6a03ac5f6bcbd861a12ccd0cdbfa6b6cc2f9d6aaf2bfdefd10df113c66e910"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MilestoneGradeMatrixServiceImpl.java",
+      "sha256": "53b97711a9a861d88ffb5fea97c8ffb32f012bc3a8019755ddcf558d576325bb"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MilestoneGradeService.java",
+      "sha256": "d2b0c0e8ffbe0defcb5138f1c69fc72a50e102e5b9735b8e8fd39b8082949978"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MilestoneGradeServiceImpl.java",
+      "sha256": "d8216d4aca6d6eb5546465a366403f2d74d4b373baf6935ac7db68fbc51819c2"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MilestoneOutcomeService.java",
+      "sha256": "ceac900bed501576912e7a2d220b3c30fb80c1ffcbc63824dc6dae4b6ade3fc0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MilestoneOutcomeServiceImpl.java",
+      "sha256": "998c6adf2cf0c5a7e668abe38261138b8092a5493bf4fa42381fdfd99fdea17b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MilestoneSubmissionService.java",
+      "sha256": "b3eaf8398baf7e59eb6a6e985524e7618eaa7e1dc7f805b9f492714dec59540a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/MilestoneSubmissionServiceImpl.java",
+      "sha256": "dad8e5618e032907aa915de785ab72d224a27e57b4aae6377f443761510d555a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/NotificationCommand.java",
+      "sha256": "82dd180072c9f5f8fce5ff0701e75cd16f94d59615df7889daf9b8e4f0c5f752"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/NotificationService.java",
+      "sha256": "a78f7f7875aed289e1fe5f4b55f7ccf7e16c95649c684c822c3bad52ef3a620c"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/NotificationServiceImpl.java",
+      "sha256": "1c41b408727f86848343abca301ef5ec1563ce1adb15e2996961756360aad693"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProblemBankService.java",
+      "sha256": "031710cfa5e2b97f679073f435442aad4112956f488a40e5eb55e19fea067405"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProblemBankServiceImpl.java",
+      "sha256": "fae49f174ed2a4eef44cd0f077c4e2593a9ea3407555e40c26b71bb37f933c0d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProblemImportRowExecutor.java",
+      "sha256": "6f77f3c2ff009275febcbab1abe0b3151f17ae2fdd89d829c3f8ef84fc0844a4"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProblemImportRowExecutorImpl.java",
+      "sha256": "27b95fee7664a47a21dfe63913ce9820ee5f4be937a6475f0b0694c7e770c8e1"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProblemImportService.java",
+      "sha256": "baf10320d2486aa083cc13c750a35c66c3c5de66ca9f15e7fbb67fa84dfb1719"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProblemImportServiceImpl.java",
+      "sha256": "24480fd95ae5c7a3a1e2a4a6f2b55a388d2075a5fcc3b9055054382ff329f38e"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProblemSeedService.java",
+      "sha256": "f586c8bff7203fa6d3f9cf5b2cdfea98702400fa48cbf57233b15fcf46785353"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProblemSeedServiceImpl.java",
+      "sha256": "bf4f40878251932778df110ff5a92037f97b62aea1dd03a78bd1392bdf211e9d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProfileService.java",
+      "sha256": "d492fe93550d452f856988f2c137632a1481c39a8cd5516e5fccc7b842a53e6d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/ProfileServiceImpl.java",
+      "sha256": "da742d5f1ff6cb81b336b0a9317f07bddd668c0e4c52510e9c15ae5f5801158f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/RefreshTokenService.java",
+      "sha256": "8f32f0409f52b937065a2ef6036f8ca7581a5b1f84d6aa6784e07803f480f884"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/RefreshTokenServiceImpl.java",
+      "sha256": "2e0fd838d25c6ebf97a0b3d33e7df48af6ec26408d652d525cad3ce9a5554740"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StoredImportMultipartFile.java",
+      "sha256": "cfef5f8acfdeecf04b153b1f3efb9940b5a6d0e285eac984e1dec91ad4067ac4"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StudentAccountImportRowExecutor.java",
+      "sha256": "12c24b15da4b1cad1e6ddd3c9908c3da270f4515045032fdc14aa1fb17f050d7"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StudentAccountImportService.java",
+      "sha256": "5aa158d89d63aac76ef8a64aa16c7be5922d95b515b449cff7c18e06eaeb6205"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StudentAccountImportServiceImpl.java",
+      "sha256": "9fffbd74d8754ecaeb98fa84fed642ea591379d23de13b88a12ba1b2ec57f3d3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StudentAccountImportTemplateFactory.java",
+      "sha256": "c0cc5f813b07837fb1b536883707025488c041971421fc29429dfec3b97f4fc3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StudentAccountImportValidationService.java",
+      "sha256": "62551536749f66cf36f874dc6dfd803d5a9091e99b9fe0d2a1c2f8122afa3359"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StudentService.java",
+      "sha256": "b00ed01d35bf42faa63623095a087bee7f0a33d34fc0be40b028bfbb5b90b75f"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StudentServiceImpl.java",
+      "sha256": "24f8c50f8965de6b54c48092c56b709c3924e59e84102b20c2561ea7f883efd0"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/StudentTermWriteGuard.java",
+      "sha256": "6bd6717f5e78a3b42b339151c710c9bfc4892239faf90f4adce30c19b63bc33d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/TaskBoardService.java",
+      "sha256": "6224a16d75f04a904c880b2c5c5234a9cfae4d45332a38f4afaed5d92716a97d"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/TaskBoardServiceImpl.java",
+      "sha256": "966d29d58db6bf1a8b7b7eca0d78bcc2dbff4491bb80e5e9f0061b1798ebd2d3"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/TokenBlacklistService.java",
+      "sha256": "f4141fe1a5207fa0cffc5a3849faf4b17ddb149d53ac90a1c377e3ac092ce647"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/services/TokenBlacklistServiceImpl.java",
+      "sha256": "c8a890b09c6ff9762ea33c40b9a2b5cfdd6de439214d420aa296d54048cb1e53"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/utils/ApplicationContextHolder.java",
+      "sha256": "fa836e8ddeeb693ae2c979dde719f7a1564aa4007450fa022143f6e05e82aa7b"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/utils/CsvImportFileParser.java",
+      "sha256": "9cf34b37ccb39bcf07ef9b965844ccdf115af69e0ee89788d53667e628d69b7a"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/utils/ImportColumnMapper.java",
+      "sha256": "7160d87c817088c4270f1098d85bba1b44abe3e4a3de83400f51f762117998c7"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/utils/ImportFileParser.java",
+      "sha256": "800fa4a16af581c3c2694efb07fe3ac999bb75dfa18b8331eb6d30d46bae5863"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/utils/StudentAccountImportFileParser.java",
+      "sha256": "6b6c5c999251b000d703d1f83eaf0f2793d5d2eb58c6cccfc2eabca27f615a48"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/utils/XlsxImportFileParser.java",
+      "sha256": "939ac443733ee0bb94f451b4b701b50c6ed2b3ea926f76be9a16cc0eebb42cef"
+    },
+    {
+      "path": "D:/f-spark/f-spark-api/src/main/java/com/fspark/api/utils/XlsxReportSupport.java",
+      "sha256": "39a24803ccc19a4ed2e9077f431db37d647965dff773af408959a1052a45831e"
+    }
+  ]
+}
+

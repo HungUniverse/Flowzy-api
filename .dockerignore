@@ -1,0 +1,12 @@
+**/bin
+**/obj
+.git
+.idea
+.vscode
+.tools
+.env
+TestResults
+coverage
+artifacts
+uploads
+backups

@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowzy.Api", "src\Flowzy.Api\Flowzy.Api.csproj", "{96B23C4A-525E-4E8E-8240-4E7BB8353181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowzy.Service", "src\Flowzy.Service\Flowzy.Service.csproj", "{0AE295B1-F0EA-44DD-B746-EE544B80C8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowzy.Repository", "src\Flowzy.Repository\Flowzy.Repository.csproj", "{C63E46A4-5CFD-4558-B65F-E7C06C42D3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowzy.Tests", "tests\Flowzy.Tests\Flowzy.Tests.csproj", "{CFC2C7B5-1CC9-4BB7-BFFB-9CF2D3BCA624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B23C4A-525E-4E8E-8240-4E7BB8353181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B23C4A-525E-4E8E-8240-4E7BB8353181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B23C4A-525E-4E8E-8240-4E7BB8353181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B23C4A-525E-4E8E-8240-4E7BB8353181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE295B1-F0EA-44DD-B746-EE544B80C8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE295B1-F0EA-44DD-B746-EE544B80C8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE295B1-F0EA-44DD-B746-EE544B80C8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE295B1-F0EA-44DD-B746-EE544B80C8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63E46A4-5CFD-4558-B65F-E7C06C42D3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63E46A4-5CFD-4558-B65F-E7C06C42D3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63E46A4-5CFD-4558-B65F-E7C06C42D3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63E46A4-5CFD-4558-B65F-E7C06C42D3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC2C7B5-1CC9-4BB7-BFFB-9CF2D3BCA624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC2C7B5-1CC9-4BB7-BFFB-9CF2D3BCA624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC2C7B5-1CC9-4BB7-BFFB-9CF2D3BCA624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC2C7B5-1CC9-4BB7-BFFB-9CF2D3BCA624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+using Flowzy.Service.Contracts;
+namespace Flowzy.Service.Grades;
+public interface IGradeMatrixService{Task<object>Grade(long milestoneId,long groupId,UpsertGroupGradeRequest r,string email,CancellationToken ct);Task<object>Contributions(long groupId,long milestoneId,UpsertContributionsRequest r,string email,CancellationToken ct);Task<object>Agreement(long groupId,long milestoneId,ContributionAgreementRequest r,string email,CancellationToken ct);Task<object>Matrix(long groupId,string email,CancellationToken ct);Task<byte[]>Export(string? term,string? course,long? groupId,string email,bool xlsx,CancellationToken ct);}

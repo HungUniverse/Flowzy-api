@@ -1,0 +1,45 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-flowzy}
+      POSTGRES_USER: ${POSTGRES_USER:-flowzy}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-flowzy_local_password}
+    ports:
+      - "5433:5432"
+    volumes:
+      - flowzy-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-flowzy} -d ${POSTGRES_DB:-flowzy}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__Default: Host=postgres;Port=5432;Database=${POSTGRES_DB:-flowzy};Username=${POSTGRES_USER:-flowzy};Password=${POSTGRES_PASSWORD:-flowzy_local_password}
+      Admin__Email: ${ADMIN_EMAIL:-admin@fspark.com}
+      Admin__Password: ${ADMIN_PASSWORD:-AdminPassword123}
+      Jwt__SecretKey: ${JWT_SECRET_KEY:-dGhpcy1pcy1hLXZlcnktc2VjdXJlLWFuZC1sb25nLXNlY3JldC1rZXktZm9yLWYtc3BhcmstYXBpLTIwMjY=}
+      Google__ClientId: ${GOOGLE_CLIENT_ID:-}
+      WebSocket__AllowedOrigins: ${WEBSOCKET_ALLOWED_ORIGINS:-http://localhost:3000}
+      Backup__Directory: /app/backups
+      Import__UploadDirectory: /app/uploads
+    ports:
+      - "8080:8080"
+    volumes:
+      - flowzy-backups:/app/backups
+      - flowzy-uploads:/app/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  flowzy-postgres:
+  flowzy-backups:
+  flowzy-uploads:

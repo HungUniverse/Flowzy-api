@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+.idea/
+.vscode/
+.env
+.env.local
+.tools/
+TestResults/
+coverage/
+artifacts/
+uploads/
+backups/
+*.user
+*.suo
