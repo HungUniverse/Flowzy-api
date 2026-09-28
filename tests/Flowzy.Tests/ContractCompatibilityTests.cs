@@ -16,6 +16,9 @@ public sealed class ContractCompatibilityTests
         info.GetProperty("title").GetString().Should().Be("Flowzy API");
         info.GetProperty("description").GetString().Should()
             .Be("Flowzy Backend API Documentation with JWT Bearer Token Security");
+        var servers = document.RootElement.GetProperty("servers");
+        servers.GetArrayLength().Should().Be(1);
+        servers[0].GetProperty("url").GetString().Should().Be("/");
     }
 
     [Fact]

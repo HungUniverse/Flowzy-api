@@ -20,8 +20,13 @@ public sealed class PostgresBackupProcess(IConfiguration configuration) : IPostg
         using var process = new Process { StartInfo = new(executable) { RedirectStandardOutput = true, RedirectStandardError = true,
             UseShellExecute = false, CreateNoWindow = true } };
         foreach (var argument in arguments) process.StartInfo.ArgumentList.Add(argument);
-        process.StartInfo.Environment["PGPASSWORD"] = Connection.Password;
-        if (!string.IsNullOrEmpty(Connection.SslMode.ToString())) process.StartInfo.Environment["PGSSLMODE"] = Connection.SslMode.ToString().ToLowerInvariant().Replace("verifyfull", "verify-full").Replace("verifyca", "verify-ca");
+        var connection = Connection;
+        process.StartInfo.Environment["PGPASSWORD"] = connection.Password;
+        process.StartInfo.Environment["PGSSLMODE"] = connection.SslMode.ToString().ToLowerInvariant().Replace("verifyfull", "verify-full").Replace("verifyca", "verify-ca");
+        // libpq does not read Npgsql's connection string; forward its TLS settings explicitly.
+        if (!string.IsNullOrWhiteSpace(connection.RootCertificate))
+            process.StartInfo.Environment["PGSSLROOTCERT"] = connection.RootCertificate;
+        process.StartInfo.Environment["PGCONNECT_TIMEOUT"] = connection.Timeout.ToString(CultureInfo.InvariantCulture);
         process.Start();
         var stdout = ReadBounded(process.StandardOutput, ct); var stderr = ReadBounded(process.StandardError, ct);
         try { await process.WaitForExitAsync(ct); }

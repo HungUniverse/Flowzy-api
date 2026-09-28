@@ -13,6 +13,8 @@ public static class DependencyInjection
         services.AddDbContext<FlowzyDbContext>(options => options.UseNpgsql(connectionString));
         services.AddScoped<IAccountRepository, AccountRepository>();
         services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+        services.AddScoped<ITokenBlacklistRepository, TokenBlacklistRepository>();
+        services.AddScoped<IDatabaseStatusRepository, DatabaseStatusRepository>();
         services.AddScoped<IPlatformReadRepository, PlatformReadRepository>();
         services.AddScoped<IAdminUserRepository, AdminUserRepository>();
         services.AddScoped<IMilestoneGradeRepository, MilestoneGradeRepository>();

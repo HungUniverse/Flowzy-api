@@ -18,11 +18,12 @@ public sealed class LegacyContract
         var info = root["info"]!.AsObject();
         info["title"] = "Flowzy API";
         info["description"] = "Flowzy Backend API Documentation with JWT Bearer Token Security";
-        if (root["servers"] is JsonArray servers && servers.FirstOrDefault() is JsonObject server)
+        // Resolve against the document's origin on localhost and behind the production proxy.
+        root["servers"] = new JsonArray(new JsonObject
         {
-            server["url"] = "http://localhost:8080";
-            server["description"] = "Local Flowzy API";
-        }
+            ["url"] = "/",
+            ["description"] = "Flowzy API"
+        });
         json = JsonSerializer.SerializeToUtf8Bytes(root);
     }
 

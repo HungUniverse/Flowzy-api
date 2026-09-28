@@ -1,0 +1,92 @@
+# docker compose --env-file /etc/flowzy/production.env -f compose.production.yml up -d --build
+name: flowzy-production
+services:
+  api:
+    image: flowzy-api:${FLOWZY_IMAGE_TAG:-production}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    user: "1654:1654"
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=256m,mode=1777
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__Default: ${DATABASE_CONNECTION_STRING:?Set DATABASE_CONNECTION_STRING with SSL Mode=VerifyFull}
+      Jwt__SecretKey: ${JWT_SECRET_KEY:?Set a unique Base64 JWT secret}
+      Google__ClientId: ${GOOGLE_CLIENT_ID:?Set the Google web client ID used by the frontend}
+      Admin__Email: ${ADMIN_EMAIL:-}
+      Admin__Password: ${ADMIN_PASSWORD:-}
+      Cors__AllowedOrigins: ${FRONTEND_ORIGINS:?Set exact HTTPS frontend origins}
+      WebSocket__AllowedOrigins: ${FRONTEND_ORIGINS:?Set exact HTTPS frontend origins}
+      AllowedHosts: ${API_DOMAIN:?Set the API hostname};localhost
+      ReverseProxy__KnownProxies: ${FLOWZY_PROXY_IP:-172.30.60.2}
+      Import__UploadDirectory: /app/uploads
+      Backup__Directory: /app/backups
+    expose:
+      - "8080"
+    volumes:
+      - uploads:/app/uploads
+      - backups:/app/backups
+      - type: bind
+        source: ${POSTGRES_CA_CERT:?Set the absolute path to the downloaded PostgreSQL CA certificate}
+        target: /etc/flowzy/ca.crt
+        read_only: true
+        bind:
+          create_host_path: false
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "--max-time", "8", "http://localhost:8080/actuator/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 90s
+    stop_grace_period: 60s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - edge
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      API_DOMAIN: ${API_DOMAIN:?Set the API hostname}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./docker/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      api:
+        condition: service_healthy
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      edge:
+        ipv4_address: ${FLOWZY_PROXY_IP:-172.30.60.2}
+
+networks:
+  edge:
+    ipam:
+      config:
+        - subnet: ${FLOWZY_SUBNET:-172.30.60.0/24}
+
+volumes:
+  uploads:
+  backups:
+  caddy-data:
+  caddy-config:

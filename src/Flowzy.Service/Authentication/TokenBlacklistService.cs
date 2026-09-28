@@ -1,42 +1,25 @@
-using System.Collections.Concurrent;
+using System.Security.Cryptography;
+using System.Text;
+using Flowzy.Repository.Repositories;
 
 namespace Flowzy.Service.Authentication;
 
-public sealed class TokenBlacklistService(IJwtService jwtService) : ITokenBlacklistService
+public sealed class TokenBlacklistService(
+    IJwtService jwtService, ITokenBlacklistRepository repository, TimeProvider clock) : ITokenBlacklistService
 {
-    private readonly ConcurrentDictionary<string, DateTime> _blacklist = new();
-
-    public void Blacklist(string token)
+    public async Task BlacklistAsync(string token, CancellationToken ct = default)
     {
-        DateTime expiresAt;
-        try
-        {
-            expiresAt = jwtService.GetExpirationUtc(token);
-        }
-        catch
-        {
-            expiresAt = DateTime.UtcNow.AddHours(1);
-        }
-
-        if (expiresAt > DateTime.UtcNow)
-        {
-            _blacklist[token] = expiresAt;
-        }
+        var expiresAt = jwtService.GetExpirationUtc(token);
+        if (expiresAt > clock.GetUtcNow().UtcDateTime)
+            await repository.RevokeAsync(Hash(token), expiresAt, ct);
     }
 
-    public bool IsBlacklisted(string token)
-    {
-        if (!_blacklist.TryGetValue(token, out var expiration))
-        {
-            return false;
-        }
-        if (expiration <= DateTime.UtcNow)
-        {
-            _blacklist.TryRemove(token, out _);
-            return false;
-        }
-        return true;
-    }
+    // Persist only a digest, never the bearer token itself.
+    public Task<bool> IsBlacklistedAsync(string token, CancellationToken ct = default) =>
+        repository.IsRevokedAsync(Hash(token), clock.GetUtcNow().UtcDateTime, ct);
 
-    public void Clear() => _blacklist.Clear();
+    public Task DeleteExpiredAsync(CancellationToken ct = default) =>
+        repository.DeleteExpiredAsync(clock.GetUtcNow().UtcDateTime, ct);
+
+    private static string Hash(string token) => Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(token)));
 }

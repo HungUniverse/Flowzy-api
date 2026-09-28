@@ -75,7 +75,7 @@ public sealed class AuthService(
         }
         if (!string.IsNullOrWhiteSpace(accessToken))
         {
-            blacklist.Blacklist(accessToken);
+            await blacklist.BlacklistAsync(accessToken, cancellationToken);
         }
     }
 

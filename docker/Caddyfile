@@ -1,0 +1,4 @@
+{$API_DOMAIN} {
+    # One API instance; no load-balancer service or path rewrites.
+    reverse_proxy api:8080
+}

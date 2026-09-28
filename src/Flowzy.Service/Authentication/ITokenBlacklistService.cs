@@ -2,7 +2,7 @@ namespace Flowzy.Service.Authentication;
 
 public interface ITokenBlacklistService
 {
-    void Blacklist(string token);
-    bool IsBlacklisted(string token);
-    void Clear();
+    Task BlacklistAsync(string token, CancellationToken ct = default);
+    Task<bool> IsBlacklistedAsync(string token, CancellationToken ct = default);
+    Task DeleteExpiredAsync(CancellationToken ct = default);
 }

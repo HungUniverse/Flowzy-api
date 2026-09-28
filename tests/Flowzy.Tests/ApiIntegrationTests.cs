@@ -33,6 +33,7 @@ public class FlowzyApiFactory : WebApplicationFactory<global::Program>, IAsyncLi
 
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
+        builder.UseEnvironment("Testing");
         builder.UseSetting("ConnectionStrings:Default", postgres.GetConnectionString());
         builder.UseSetting("Jwt:SecretKey", "dGVzdC1qd3Qtc2VjcmV0LWtleS10aGF0LWlzLWxvbmctZW5vdWdoLWZvci1oczI1Ng==");
         builder.UseSetting("Admin:Email", "admin.integration@local.test");

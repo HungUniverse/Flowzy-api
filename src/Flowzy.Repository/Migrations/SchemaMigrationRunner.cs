@@ -93,6 +93,8 @@ public sealed partial class SchemaMigrationRunner(
 
         foreach (var version in flywayVersions)
         {
+            // Only V1-V33 are shared with Java; subsequent migrations are owned by Flowzy.
+            if (version > 33) continue;
             if (!migrations.TryGetValue(version, out var migration))
             {
                 continue;

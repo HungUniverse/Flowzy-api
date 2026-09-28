@@ -9,9 +9,10 @@ WORKDIR /app
 ADD --chmod=644 https://www.postgresql.org/media/keys/ACCC4CF8.asc /usr/share/keyrings/postgresql.asc
 COPY docker/postgresql.sources /etc/apt/sources.list.d/postgresql.sources
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends postgresql-client-16 \
+    && apt-get install -y --no-install-recommends postgresql-client-16 fontconfig fonts-dejavu-core curl \
     && rm -rf /var/lib/apt/lists/*
 COPY --from=build /app/publish .
-RUN mkdir -p /app/backups /app/uploads
+RUN mkdir -p /app/backups /app/uploads \
+    && chown -R app:app /app/backups /app/uploads
 EXPOSE 8080
 ENTRYPOINT ["dotnet", "Flowzy.Api.dll"]

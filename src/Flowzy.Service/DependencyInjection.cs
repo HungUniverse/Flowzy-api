@@ -28,7 +28,8 @@ public static class DependencyInjection
         services.Configure<AdminOptions>(configuration.GetSection(AdminOptions.SectionName));
         services.Configure<GoogleOptions>(configuration.GetSection(GoogleOptions.SectionName));
         services.AddSingleton<IJwtService, JwtService>();
-        services.AddSingleton<ITokenBlacklistService, TokenBlacklistService>();
+        services.AddScoped<ITokenBlacklistService, TokenBlacklistService>();
+        services.AddScoped<IDatabaseHealthService, DatabaseHealthService>();
         services.AddScoped<IRefreshTokenService, RefreshTokenService>();
         services.AddScoped<IAuthService, AuthService>();
         services.AddHttpClient<IGoogleTokenVerifier, GoogleTokenVerifier>();

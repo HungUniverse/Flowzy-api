@@ -15,17 +15,29 @@ using Flowzy.Service.Startup;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using Flowzy.Api.Configuration;
+using Flowzy.Api.Health;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Default")
     ?? throw new InvalidOperationException("ConnectionStrings:Default is required");
-var secret = builder.Configuration["Jwt:SecretKey"]
-    ?? throw new InvalidOperationException("Jwt:SecretKey is required");
+var secret = DeploymentConfiguration.Validate(builder.Configuration, builder.Environment.IsProduction());
+var corsOrigins = DeploymentConfiguration.Origins(builder.Configuration, "Cors:AllowedOrigins", builder.Environment.IsProduction());
+var websocketOrigins = DeploymentConfiguration.Origins(builder.Configuration, "WebSocket:AllowedOrigins", builder.Environment.IsProduction());
+var websocketOptions = new WebSocketOptions();
+foreach (var origin in websocketOrigins) websocketOptions.AllowedOrigins.Add(origin);
+builder.Services.AddSingleton(websocketOptions);
 
 builder.Services.AddFlowzyRepository(connectionString);
 builder.Services.AddFlowzyServices(builder.Configuration);
 builder.Services.AddHostedService<Flowzy.Api.Workers.BackupWorker>();
 builder.Services.AddHostedService<Flowzy.Api.Workers.ImportWorker>();
+builder.Services.AddHostedService<Flowzy.Api.Workers.TokenBlacklistCleanupWorker>();
+builder.Services.AddHealthChecks().AddCheck<DatabaseHealthCheck>("postgres", timeout: TimeSpan.FromSeconds(5));
+builder.Services.Configure<ForwardedHeadersOptions>(options => DeploymentConfiguration.ConfigureForwarding(options, builder.Configuration));
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -63,7 +75,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
-    policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+    policy.WithOrigins(corsOrigins).AllowAnyHeader().AllowAnyMethod().WithExposedHeaders("Content-Disposition")));
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -74,7 +86,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuer = false,
             ValidateAudience = false,
             ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Convert.FromBase64String(secret)),
+            IssuerSigningKey = new SymmetricSecurityKey(secret),
             ValidateLifetime = true,
             ClockSkew = TimeSpan.Zero,
             NameClaimType = JwtRegisteredClaimNames.Sub,
@@ -87,7 +99,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 var header = context.HttpContext.Request.Headers.Authorization.ToString();
                 var token = header.StartsWith("Bearer ", StringComparison.Ordinal) ? header[7..] : string.Empty;
                 var blacklist = context.HttpContext.RequestServices.GetRequiredService<ITokenBlacklistService>();
-                if (blacklist.IsBlacklisted(token))
+                if (await blacklist.IsBlacklistedAsync(token, context.HttpContext.RequestAborted))
                 {
                     context.Fail("Token is blacklisted");
                     return;
@@ -136,8 +148,9 @@ await using (var scope = app.Services.CreateAsyncScope())
 }
 
 app.UseMiddleware<GlobalExceptionMiddleware>();
+app.UseForwardedHeaders();
 app.UseCors();
-app.UseWebSockets();
+app.UseWebSockets(websocketOptions);
 app.UseSwaggerUI(options =>
 {
     options.RoutePrefix = "swagger-ui";
@@ -163,7 +176,13 @@ app.MapGet("/swagger-ui/{file}", (string file) =>
     var stream = assembly.GetManifestResourceStream(resourceName);
     return stream is null ? Results.NotFound() : Results.Stream(stream, asset.ContentType);
 }).AllowAnonymous();
-app.MapGet("/actuator/health", () => Results.Json(new { status = "UP" })).AllowAnonymous();
+app.MapHealthChecks("/actuator/health", new HealthCheckOptions
+{
+    ResponseWriter = (context, report) => context.Response.WriteAsJsonAsync(new
+    {
+        status = report.Status == HealthStatus.Healthy ? "UP" : "DOWN"
+    })
+}).AllowAnonymous();
 app.Map("/ws", async context => await context.RequestServices.GetRequiredService<StompWebSocketHandler>().HandleAsync(context)).AllowAnonymous();
 app.UseAuthentication();
 app.UseMiddleware<PasswordChangeRequiredMiddleware>();

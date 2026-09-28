@@ -14,7 +14,7 @@ Requirements: Docker Desktop with Compose.
 docker compose up --build
 ```
 
-The first startup creates PostgreSQL 16, executes the original SQL migrations V1–V33 in order, and seeds the local admin account. Default local addresses:
+The first startup creates PostgreSQL 16, executes the original SQL migrations V1–V33 followed by Flowzy's V34 (persistent token revocations), and seeds the local admin account. Default local addresses:
 
 - API: `http://localhost:8080`
 - health: `http://localhost:8080/actuator/health`
@@ -58,6 +58,10 @@ dotnet test Flowzy.sln
 docker compose ps
 ```
 
-The Java OpenAPI oracle is stored at `contracts/fspark-openapi.json`. It contains 153 paths and 240 schemas and is served unchanged at `/v3/api-docs`; generated C# DTOs live in `Flowzy.Service/Contracts/Generated`.
+The Java OpenAPI oracle is stored at `contracts/fspark-openapi.json`. It contains 153 paths and 240 schemas. The served `/v3/api-docs` preserves its operations and schemas while applying Flowzy branding and a same-origin server URL; generated C# DTOs live in `Flowzy.Service/Contracts/Generated`.
 
-`dotnet test` also starts an isolated PostgreSQL 16 Testcontainer, applies V1–V33 from an empty database, seeds an admin and verifies the login contract. Docker must therefore be running for the integration suite.
+`dotnet test` also starts isolated PostgreSQL 16 Testcontainers, applies V1–V34 from an empty database, seeds an admin and verifies the login contract. Docker must therefore be running for the integration suite.
+
+## Production deployment
+
+Use [the production deployment guide](docs/PRODUCTION_DEPLOYMENT.md), `compose.production.yml` and `.env.production.example`. The production stack uses a single non-root API instance behind Caddy HTTPS, with an external PostgreSQL 16 database requiring certificate verification. It does not reuse the local Compose database or demonstration credentials. See the guide for the opt-in Docker-image test covering real TLS, XLSX exports, persistent logout and backup/restore.

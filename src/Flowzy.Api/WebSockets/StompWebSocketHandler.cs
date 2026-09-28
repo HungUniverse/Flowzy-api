@@ -9,10 +9,15 @@ public sealed class StompWebSocketHandler(
     IJwtService jwt,
     ITokenBlacklistService blacklist,
     IAccountRepository accounts,
+    WebSocketOptions options,
     ILogger<StompWebSocketHandler> logger)
 {
     public async Task HandleAsync(HttpContext context)
     {
+        // Check at the acceptance boundary too, including servers that supply their own WebSocket feature.
+        if (context.Request.Headers.TryGetValue("Origin", out var origin) &&
+            (origin.Count != 1 || !options.AllowedOrigins.Contains(origin[0]!, StringComparer.OrdinalIgnoreCase)))
+        { context.Response.StatusCode = StatusCodes.Status403Forbidden; return; }
         if (!context.WebSockets.IsWebSocketRequest) { context.Response.StatusCode = StatusCodes.Status400BadRequest; return; }
         using var socket = await context.WebSockets.AcceptWebSocketAsync();
         var buffer = new byte[16 * 1024]; string? authenticatedEmail = null;
@@ -35,7 +40,7 @@ public sealed class StompWebSocketHandler(
                     {
                         var authorization = headers.GetValueOrDefault("Authorization") ?? headers.GetValueOrDefault("authorization");
                         if (authorization is null || !authorization.StartsWith("Bearer ", StringComparison.Ordinal)) throw new InvalidOperationException("Missing or invalid Authorization header");
-                        var token = authorization[7..]; if (blacklist.IsBlacklisted(token)) throw new InvalidOperationException("Token is blacklisted");
+                        var token = authorization[7..]; if (await blacklist.IsBlacklistedAsync(token, context.RequestAborted)) throw new InvalidOperationException("Token is blacklisted");
                         var principal = jwt.ValidateToken(token); authenticatedEmail = principal.Identity?.Name ?? principal.FindFirst("sub")?.Value;
                         var account = authenticatedEmail is null ? null : await accounts.FindByEmailAsync(authenticatedEmail, context.RequestAborted);
                         if (account is null || account.Status != "ACTIVE") throw new InvalidOperationException("Invalid or disabled user token");

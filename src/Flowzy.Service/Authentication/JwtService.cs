@@ -18,6 +18,7 @@ public sealed class JwtService(IOptions<JwtOptions> options) : IJwtService
         {
             Subject = new ClaimsIdentity([
                 new Claim(JwtRegisteredClaimNames.Sub, account.Email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
                 new Claim("role", account.Role)
             ]),
             IssuedAt = now,
